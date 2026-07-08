@@ -1,0 +1,72 @@
+{
+  "id": "burnt-butter-hazelnut-cookies",
+  "title": "Burnt Butter Hazelnut Cookies",
+  "story": "",
+  "category": "Desserts",
+  "status": "draft",
+  "servings": "",
+  "prepTime": "",
+  "cookTime": "",
+  "totalTime": "minimum 1 hour chill + bake time",
+  "ingredientGroups": [
+    {
+      "section": "Brown Butter",
+      "items": [
+        { "id": "butter", "text": "Unsalted butter, room temperature before mixing (amount TBD)" },
+        { "id": "orange-zest", "text": "Orange zest (amount TBD)" },
+        { "id": "cardamom-bloom", "text": "Cardamom, bloomed in the brown butter (portion of total — amount TBD)" }
+      ]
+    },
+    {
+      "section": "Dry Ingredients",
+      "items": [
+        { "id": "cardamom-remaining", "text": "Remaining cardamom (amount TBD)" },
+        { "id": "hazelnuts", "text": "Hazelnuts (amount + prep TBD — toasted? chopped?)" },
+        { "id": "flour", "text": "TBD" },
+        { "id": "sugar", "text": "TBD" },
+        { "id": "leavening", "text": "TBD" },
+        { "id": "salt", "text": "TBD" }
+      ]
+    },
+    {
+      "section": "Wet",
+      "items": [
+        { "id": "egg", "text": "1 large egg, room temperature" }
+      ]
+    }
+  ],
+  "instructionGroups": [
+    {
+      "section": "Brown Butter",
+      "steps": [
+        {
+          "text": "Brown the butter with orange zest until it smells nutty and turns golden-brown. Add a portion of the cardamom to bloom directly in the hot butter.",
+          "donenessCue": "Butter is deep golden-brown with visible browned milk solids, smells toasted/nutty."
+        },
+        { "text": "Cool the browned butter until it returns to room temperature before mixing into the dough — do not use while warm." }
+      ]
+    },
+    {
+      "section": "Mix",
+      "steps": [
+        { "text": "Cream the room-temperature browned butter with the sugar." },
+        { "text": "Add the room-temperature egg." },
+        { "text": "Whisk the remaining cardamom into the dry ingredients, then fold into the wet mixture." },
+        { "text": "Fold in the hazelnuts." }
+      ]
+    },
+    {
+      "section": "Chill & Bake",
+      "steps": [
+        { "text": "Chill the dough for a minimum of 1 hour before baking — do not skip, this is a required step, not optional.", "timerMinutes": 60 },
+        {
+          "text": "Bake until the edges are golden and the centers are set.",
+          "donenessCue": "Edges golden, centers set (not glossy/wet-looking)."
+        }
+      ]
+    }
+  ],
+  "ifYouFeelLikeIt": [],
+  "storage": "TBD",
+  "tags": ["anchor", "cardamom", "brown-butter", "hazelnut"]
+}

@@ -1,0 +1,94 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Recipe",
+  "type": "object",
+  "required": ["id", "title", "category", "status", "ingredients", "instructions"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "kebab-case unique id, e.g. burnt-butter-hazelnut-cookies"
+    },
+    "title": { "type": "string" },
+    "story": {
+      "type": "string",
+      "description": "Headnote — why this recipe, who it's for. Optional but encouraged."
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "Starters",
+        "Sides",
+        "Sauces & Condiments",
+        "Entrees",
+        "Desserts",
+        "Party Snacks",
+        "Non-Alcoholic Beverages",
+        "Mocktails",
+        "Boozy Drinks"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["anchor", "draft", "backlog"]
+    },
+    "servings": { "type": "string" },
+    "prepTime": { "type": "string" },
+    "cookTime": { "type": "string" },
+    "totalTime": { "type": "string" },
+    "ingredientGroups": {
+      "type": "array",
+      "description": "Ingredients divided by prep section (e.g. 'Cookies', 'Brown Butter').",
+      "items": {
+        "type": "object",
+        "required": ["section", "items"],
+        "properties": {
+          "section": { "type": "string" },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "text"],
+              "properties": {
+                "id": { "type": "string", "description": "short id to reference from instructions" },
+                "text": { "type": "string", "description": "e.g. '1 cup (2 sticks) unsalted butter'" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "instructionGroups": {
+      "type": "array",
+      "description": "Steps grouped to match ingredientGroups sections.",
+      "items": {
+        "type": "object",
+        "required": ["section", "steps"],
+        "properties": {
+          "section": { "type": "string" },
+          "steps": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["text"],
+              "properties": {
+                "text": { "type": "string" },
+                "donenessCue": { "type": "string", "description": "visual/sensory checkpoint, if applicable" },
+                "timerMinutes": { "type": "number" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "ifYouFeelLikeIt": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "storage": { "type": "string" },
+    "batchVersion": { "type": "string" },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

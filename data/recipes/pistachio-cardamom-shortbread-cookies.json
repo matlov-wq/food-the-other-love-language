@@ -1,0 +1,107 @@
+{
+  "id": "pistachio-cardamom-shortbread-cookies",
+  "title": "Pistachio and Cardamom Shortbread Cookies",
+  "story": "Cardamom and pistachio is a pairing that's been doing the work for centuries before it ended up in a Western cookbook. These shortbread cookies are proof that restraint is its own kind of sophistication — no egg, no leavening, just butter and flour doing what they were made to do. The fork crosshatch isn't decoration. It's how you know.",
+  "category": "Desserts",
+  "status": "draft",
+  "servings": "~24 cookies",
+  "prepTime": "15 minutes",
+  "cookTime": "12–15 minutes",
+  "totalTime": "~30 minutes",
+  "ingredientGroups": [
+    {
+      "section": "Dry",
+      "items": [
+        { "id": "flour",          "text": "2 cups all-purpose flour" },
+        { "id": "powdered-sugar", "text": "½ cup powdered sugar" },
+        { "id": "cardamom",       "text": "1 tsp ground cardamom" },
+        { "id": "salt",           "text": "½ tsp fine salt" }
+      ]
+    },
+    {
+      "section": "Wet",
+      "items": [
+        { "id": "butter", "text": "½ cup unsalted butter, at room temperature" }
+      ]
+    },
+    {
+      "section": "Add-Ins",
+      "items": [
+        { "id": "pistachios", "text": "¼ cup pistachios, finely chopped" }
+      ]
+    },
+    {
+      "section": "Optional",
+      "items": [
+        { "id": "flaky-salt", "text": "Flaky sea salt, for finishing" }
+      ]
+    }
+  ],
+  "instructionGroups": [
+    {
+      "section": "Mix the Dry",
+      "steps": [
+        {
+          "text": "Whisk together 2 cups all-purpose flour, ½ cup powdered sugar, 1 tsp ground cardamom, and ½ tsp fine salt in a medium bowl. Set aside."
+        }
+      ]
+    },
+    {
+      "section": "Cream",
+      "steps": [
+        {
+          "text": "In a large bowl, beat ½ cup room-temperature butter until smooth and creamy, about 1–2 minutes.",
+          "timerMinutes": 2,
+          "donenessCue": "Butter should look pale and fluffy and hold a soft peak when you pull the beater away."
+        }
+      ]
+    },
+    {
+      "section": "Build the Dough",
+      "steps": [
+        {
+          "text": "Add the dry ingredients to the butter and mix until just combined. The dough will look crumbly at first — keep mixing until it comes together into a smooth dough."
+        },
+        {
+          "text": "Fold in ¼ cup finely chopped pistachios."
+        }
+      ]
+    },
+    {
+      "section": "Bake",
+      "steps": [
+        {
+          "text": "Preheat the oven to 325°F (165°C). Line a baking sheet with parchment paper."
+        },
+        {
+          "text": "Roll the dough into 1-inch balls and place them 2 inches apart on the prepared baking sheet."
+        },
+        {
+          "text": "Flatten each ball slightly with the palm of your hand, then press a fork lightly into the top to make a crosshatch pattern."
+        },
+        {
+          "text": "Bake for 12–15 minutes.",
+          "timerMinutes": 13,
+          "donenessCue": "Edges should be just barely golden — the tops will stay pale. Shortbread doesn't brown the way other cookies do. Pull them when the edges look set and dry; overbaking makes them hard instead of tender."
+        }
+      ]
+    },
+    {
+      "section": "Finish",
+      "steps": [
+        {
+          "text": "Cool on the baking sheet for 5 minutes before transferring to a wire rack. They're fragile while warm. Sprinkle with flaky sea salt while still warm if using.",
+          "timerMinutes": 5
+        }
+      ]
+    }
+  ],
+  "ifYouFeelLikeIt": [
+    "Toast the pistachios in a dry skillet over medium heat for 2–3 minutes before chopping — the flavor deepens significantly.",
+    "Add ½ tsp rose water to the butter before adding the dry ingredients. A little goes a long way; it rounds out the cardamom without taking over.",
+    "Roll the dough into a log, wrap in parchment, and refrigerate for 1 hour, then slice into rounds instead of rolling into balls — cleaner edges and a more uniform cookie.",
+    "Press a whole pistachio into the center of each cookie before baking instead of the crosshatch — simpler and more visually distinct."
+  ],
+  "storage": "Store in an airtight container at room temperature for up to 1 week — shortbread keeps better than most cookies. Freeze baked cookies for up to 3 months; thaw at room temperature.",
+  "tags": ["cookies", "shortbread", "pistachio", "cardamom"]
+}

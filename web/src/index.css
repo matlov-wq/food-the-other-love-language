@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  /* Safe area padding for notched devices */
+  body {
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
+
+@layer components {
+  .doneness-cue {
+    @apply mt-2 pl-3 py-1.5 border-l-2 text-sm rounded-r;
+    border-color: #E8C888;
+    background-color: #FAF3E7;
+    color: #6B4226;
+  }
+
+  .ifyfli-section {
+    @apply mt-6 p-4 rounded-xl border;
+    background-color: #FAF3E7;
+    border-color: #E8C888;
+  }
+
+  .section-label {
+    @apply text-xs font-semibold uppercase tracking-widest mb-3;
+    color: #8B5A2B;
+  }
+
+  .ingredient-section-header {
+    @apply text-sm font-semibold uppercase tracking-wider mt-5 mb-2 pb-1 border-b;
+    color: #8B5A2B;
+    border-color: #E8C888;
+  }
+
+  .instruction-section-header {
+    @apply text-sm font-semibold uppercase tracking-wider mt-6 mb-3 pb-1 border-b;
+    color: #8B5A2B;
+    border-color: #E8C888;
+  }
+}

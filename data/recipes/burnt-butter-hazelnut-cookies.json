@@ -1,72 +1,126 @@
 {
   "id": "burnt-butter-hazelnut-cookies",
   "title": "Burnt Butter Hazelnut Cookies",
-  "story": "",
+  "story": "These cookies were the first recipe we built together. They taught us that little choices matter—blooming a spice, browning butter a shade darker than feels safe, waiting an extra hour for the dough to rest. They're proof that care isn't complicated. It's just a series of small decisions that add up to something people remember.",
   "category": "Desserts",
-  "status": "draft",
-  "servings": "",
-  "prepTime": "",
-  "cookTime": "",
-  "totalTime": "minimum 1 hour chill + bake time",
+  "status": "anchor",
+  "servings": "~18 cookies",
+  "prepTime": "~15 minutes",
+  "cookTime": "10 minutes",
+  "totalTime": "1 hour 25 minutes (includes 1 hour chill)",
   "ingredientGroups": [
     {
-      "section": "Brown Butter",
+      "section": "Dry",
       "items": [
-        { "id": "butter", "text": "Unsalted butter, room temperature before mixing (amount TBD)" },
-        { "id": "orange-zest", "text": "Orange zest (amount TBD)" },
-        { "id": "cardamom-bloom", "text": "Cardamom, bloomed in the brown butter (portion of total — amount TBD)" }
-      ]
-    },
-    {
-      "section": "Dry Ingredients",
-      "items": [
-        { "id": "cardamom-remaining", "text": "Remaining cardamom (amount TBD)" },
-        { "id": "hazelnuts", "text": "Hazelnuts (amount + prep TBD — toasted? chopped?)" },
-        { "id": "flour", "text": "TBD" },
-        { "id": "sugar", "text": "TBD" },
-        { "id": "leavening", "text": "TBD" },
-        { "id": "salt", "text": "TBD" }
+        { "id": "hazelnut-meal",   "text": "1 cup hazelnut meal" },
+        { "id": "flour",           "text": "½ cup all-purpose flour" },
+        { "id": "baking-powder",   "text": "½ tsp baking powder" },
+        { "id": "salt",            "text": "¼ tsp fine salt" },
+        { "id": "cardamom-dry",    "text": "½ tsp ground cardamom" }
       ]
     },
     {
       "section": "Wet",
       "items": [
-        { "id": "egg", "text": "1 large egg, room temperature" }
+        { "id": "butter",          "text": "½ cup unsalted butter" },
+        { "id": "orange-zest",     "text": "1 tsp fresh orange zest" },
+        { "id": "cardamom-bloom",  "text": "½ tsp ground cardamom (bloomed in butter)" },
+        { "id": "dark-brown-sugar","text": "½ cup dark brown sugar" },
+        { "id": "white-sugar",     "text": "¼ cup white sugar" },
+        { "id": "egg",             "text": "1 large egg, room temperature" },
+        { "id": "vanilla",         "text": "1 tsp vanilla extract" }
+      ]
+    },
+    {
+      "section": "Optional",
+      "items": [
+        { "id": "flaky-salt",      "text": "Flaky sea salt, for finishing" }
       ]
     }
   ],
   "instructionGroups": [
     {
-      "section": "Brown Butter",
+      "section": "Brown the Butter",
       "steps": [
         {
-          "text": "Brown the butter with orange zest until it smells nutty and turns golden-brown. Add a portion of the cardamom to bloom directly in the hot butter.",
-          "donenessCue": "Butter is deep golden-brown with visible browned milk solids, smells toasted/nutty."
+          "text": "Melt ½ cup unsalted butter in a saucepan over medium heat, stirring occasionally.",
+          "donenessCue": "Butter turns deep amber and smells deeply nutty — go a shade darker than feels safe."
         },
-        { "text": "Cool the browned butter until it returns to room temperature before mixing into the dough — do not use while warm." }
-      ]
-    },
-    {
-      "section": "Mix",
-      "steps": [
-        { "text": "Cream the room-temperature browned butter with the sugar." },
-        { "text": "Add the room-temperature egg." },
-        { "text": "Whisk the remaining cardamom into the dry ingredients, then fold into the wet mixture." },
-        { "text": "Fold in the hazelnuts." }
-      ]
-    },
-    {
-      "section": "Chill & Bake",
-      "steps": [
-        { "text": "Chill the dough for a minimum of 1 hour before baking — do not skip, this is a required step, not optional.", "timerMinutes": 60 },
         {
-          "text": "Bake until the edges are golden and the centers are set.",
-          "donenessCue": "Edges golden, centers set (not glossy/wet-looking)."
+          "text": "Remove from heat immediately. Stir in 1 tsp fresh orange zest and ½ tsp ground cardamom. Blooming the cardamom in the warm fat draws out its aromatic oils for a deeper, rounder flavor — the other ½ tsp goes in with the dry ingredients to keep its brighter, more fragrant notes."
+        },
+        {
+          "text": "Set aside and let the brown butter cool completely to room temperature before continuing."
+        }
+      ]
+    },
+    {
+      "section": "Mix the Dry Ingredients",
+      "steps": [
+        {
+          "text": "In a medium bowl, whisk together 1 cup hazelnut meal, ½ cup all-purpose flour, ½ tsp baking powder, ¼ tsp fine salt, and ½ tsp ground cardamom. Set aside."
+        }
+      ]
+    },
+    {
+      "section": "Cream the Sugars",
+      "steps": [
+        {
+          "text": "In a large bowl, combine the cooled brown butter, ½ cup dark brown sugar, and ¼ cup white sugar. Beat until smooth and creamy."
+        }
+      ]
+    },
+    {
+      "section": "Build the Dough",
+      "steps": [
+        {
+          "text": "Beat in 1 large room-temperature egg and 1 tsp vanilla extract until fully combined."
+        },
+        {
+          "text": "Fold in the dry ingredients just until no dry spots remain. Do not overmix."
+        }
+      ]
+    },
+    {
+      "section": "Chill",
+      "steps": [
+        {
+          "text": "Cover the dough and refrigerate for at least 1 hour. This is required — do not skip.",
+          "timerMinutes": 60
+        }
+      ]
+    },
+    {
+      "section": "Bake",
+      "steps": [
+        {
+          "text": "Preheat the oven to 350°F (175°C)."
+        },
+        {
+          "text": "Scoop approximately 1½ tablespoons of dough per cookie. Roll gently into balls and flatten slightly."
+        },
+        {
+          "text": "Bake for 10 minutes.",
+          "donenessCue": "Edges are golden brown and centers look set — not glossy or wet.",
+          "timerMinutes": 10
+        }
+      ]
+    },
+    {
+      "section": "Finish",
+      "steps": [
+        {
+          "text": "Cool on the baking sheet for 5–7 minutes before transferring to a wire rack. The flavor noticeably deepens after 12–24 hours.",
+          "timerMinutes": 6
         }
       ]
     }
   ],
-  "ifYouFeelLikeIt": [],
-  "storage": "TBD",
-  "tags": ["anchor", "cardamom", "brown-butter", "hazelnut"]
+  "ifYouFeelLikeIt": [
+    "Add ½ teaspoon honey or ½ teaspoon molasses to the sugars for a darker, more caramelized flavor.",
+    "Sprinkle with flaky sea salt while the cookies are still warm for a sweet-and-savory finish.",
+    "Fold in ¼ cup chopped toasted hazelnuts before chilling the dough for a little extra texture."
+  ],
+  "storage": "Store loosely covered at room temperature. The flavor noticeably deepens after 12–24 hours.",
+  "tags": ["anchor", "cardamom", "brown-butter", "hazelnut", "cookies"]
 }

@@ -1,0 +1,138 @@
+{
+  "id": "brown-butter-coconut-lime-macaroon-cookies",
+  "title": "Brown Butter Coconut Lime Macaroon Cookies",
+  "story": "",
+  "category": "Desserts",
+  "status": "draft",
+  "servings": "16–18 cookies",
+  "prepTime": "~30 minutes",
+  "cookTime": "25 minutes",
+  "totalTime": "4 hours 45 minutes minimum, ideally overnight (includes 4-hour chill)",
+  "ingredientGroups": [
+    {
+      "section": "Coconut Base",
+      "items": [
+        { "id": "shredded-coconut",  "text": "2½ cups (215g) sweetened shredded coconut" },
+        { "id": "flake-coconut",     "text": "½ cup (45g) unsweetened large-flake coconut" },
+        { "id": "coconut-flour",     "text": "¼ cup (30g) coconut flour" }
+      ]
+    },
+    {
+      "section": "Dry",
+      "items": [
+        { "id": "flour",             "text": "¾ cup (95g) all-purpose flour" },
+        { "id": "baking-powder",     "text": "½ tsp baking powder" },
+        { "id": "salt",              "text": "¾ tsp kosher salt" }
+      ]
+    },
+    {
+      "section": "Brown Butter",
+      "items": [
+        { "id": "butter",            "text": "¾ cup (170g) unsalted butter" },
+        { "id": "dark-brown-sugar",  "text": "1 cup (220g) dark brown sugar" },
+        { "id": "granulated-sugar",  "text": "¼ cup (50g) granulated sugar" },
+        { "id": "lime-zest",         "text": "Zest of 3 limes" }
+      ]
+    },
+    {
+      "section": "Wet",
+      "items": [
+        { "id": "eggs",              "text": "2 large eggs" },
+        { "id": "egg-yolk",         "text": "1 large egg yolk" },
+        { "id": "vanilla",           "text": "2 tsp vanilla extract" },
+        { "id": "coconut-extract",   "text": "½ tsp coconut extract (if you feel like it)" }
+      ]
+    },
+    {
+      "section": "Finish",
+      "items": [
+        { "id": "flaky-salt",        "text": "Flaky sea salt" }
+      ]
+    }
+  ],
+  "instructionGroups": [
+    {
+      "section": "Toast the Coconut",
+      "steps": [
+        {
+          "text": "Spread 2½ cups (215g) shredded coconut and ½ cup (45g) large-flake coconut on a baking sheet. Toast at 325°F for 8–10 minutes, stirring once halfway through.",
+          "donenessCue": "Golden brown and fragrant. The flakes will color more than the shredded coconut — that's expected.",
+          "timerMinutes": 9
+        },
+        {
+          "text": "Set aside to cool completely before using."
+        }
+      ]
+    },
+    {
+      "section": "Brown the Butter",
+      "steps": [
+        {
+          "text": "Cook ¾ cup (170g) unsalted butter in a saucepan over medium heat, stirring occasionally.",
+          "donenessCue": "Milk solids turn amber and it smells nutty."
+        },
+        {
+          "text": "Remove from heat and let cool until warm but not hot before continuing."
+        }
+      ]
+    },
+    {
+      "section": "Build the Lime Sugar",
+      "steps": [
+        {
+          "text": "In a large bowl, rub the zest of 3 limes into 1 cup (220g) dark brown sugar and ¼ cup (50g) granulated sugar with your fingers until the mixture is fragrant and slightly damp. This releases the lime oils directly into the sugar — the lime flavor infuses the whole dough rather than sitting on the surface."
+        }
+      ]
+    },
+    {
+      "section": "Combine and Build the Dough",
+      "steps": [
+        {
+          "text": "Whisk the cooled brown butter into the lime sugar until smooth."
+        },
+        {
+          "text": "Add 2 large eggs, 1 large egg yolk, 2 tsp vanilla extract, and ½ tsp coconut extract (if using). Mix until glossy."
+        },
+        {
+          "text": "Add ¾ cup (95g) all-purpose flour, ¼ cup (30g) coconut flour, ½ tsp baking powder, and ¾ tsp kosher salt. Mix until just combined."
+        },
+        {
+          "text": "Fold in the cooled toasted shredded coconut and toasted coconut flakes.",
+          "donenessCue": "Dough will be thick and slightly sticky — that's correct, don't try to loosen it."
+        }
+      ]
+    },
+    {
+      "section": "Chill",
+      "steps": [
+        {
+          "text": "Cover and refrigerate the dough for at least 4 hours, ideally overnight. The coconut flour needs time to hydrate — don't skip or shortcut this step.",
+          "timerMinutes": 240
+        }
+      ]
+    },
+    {
+      "section": "Bake",
+      "steps": [
+        {
+          "text": "Heat the oven to 350°F. Scoop 55–60g portions onto a lined baking sheet."
+        },
+        {
+          "text": "Bake for 12–14 minutes.",
+          "donenessCue": "Golden around the edges, slightly puffed, and soft in the middle. The centers will NOT look fully done — that's correct. Do not over-bake waiting for them to firm up.",
+          "timerMinutes": 13
+        },
+        {
+          "text": "Cool on the baking sheet. Finish with flaky sea salt while still warm."
+        }
+      ]
+    }
+  ],
+  "ifYouFeelLikeIt": [
+    "Lime curd center: press a thumbprint into each dough ball, add ½ tsp lime curd, then cover with a little more dough before baking.",
+    "White chocolate coconut shell: dip the cooled cookie bottoms in tempered white chocolate and sprinkle with toasted coconut.",
+    "Coconut caramel: fold ½ cup chopped soft caramel pieces into the dough — they melt into chewy pockets as it bakes."
+  ],
+  "storage": "Baked cookies keep in an airtight container at room temperature for 4–5 days. Unbaked dough can be refrigerated up to 2 days or frozen (portioned into balls) for up to 2 months — bake from frozen, adding 1–2 extra minutes.",
+  "tags": ["brown-butter", "coconut", "lime", "macaroon", "cookies"]
+}

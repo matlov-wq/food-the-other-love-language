@@ -1,0 +1,119 @@
+{
+  "id": "dark-chocolate-raspberry-champagne-cookies",
+  "title": "Dark Chocolate, Raspberry and Champagne Cookies",
+  "story": "These are the cookies you bring when you want to seem like you put in more effort than you did. The champagne doesn't announce itself — it lightens the dough and cuts through the cocoa in a way that makes people ask what the secret is. The dried raspberries stay intact through the bake and give you a hit of tart every few bites. Dust them with powdered sugar right before they leave the kitchen.",
+  "category": "Desserts",
+  "status": "draft",
+  "servings": "~24 cookies",
+  "prepTime": "20 minutes",
+  "cookTime": "12–15 minutes",
+  "totalTime": "~35 minutes",
+  "ingredientGroups": [
+    {
+      "section": "Dry",
+      "items": [
+        { "id": "flour",         "text": "2 cups all-purpose flour" },
+        { "id": "cocoa-powder",  "text": "½ cup cocoa powder" },
+        { "id": "baking-powder", "text": "½ tsp baking powder" },
+        { "id": "salt",          "text": "¼ tsp fine salt" }
+      ]
+    },
+    {
+      "section": "Wet",
+      "items": [
+        { "id": "butter",           "text": "½ cup unsalted butter, at room temperature" },
+        { "id": "granulated-sugar", "text": "½ cup granulated sugar" },
+        { "id": "brown-sugar",      "text": "½ cup brown sugar, packed" },
+        { "id": "eggs",             "text": "2 large eggs" },
+        { "id": "vanilla",          "text": "1 tsp vanilla extract" },
+        { "id": "champagne",        "text": "¼ cup champagne or dry sparkling wine" }
+      ]
+    },
+    {
+      "section": "Add-Ins",
+      "items": [
+        { "id": "dark-chocolate",    "text": "½ cup dark chocolate chips" },
+        { "id": "dried-raspberries", "text": "¼ cup dried raspberries" }
+      ]
+    },
+    {
+      "section": "Optional",
+      "items": [
+        { "id": "powdered-sugar", "text": "Powdered sugar, for dusting" }
+      ]
+    }
+  ],
+  "instructionGroups": [
+    {
+      "section": "Mix the Dry",
+      "steps": [
+        {
+          "text": "Whisk together 2 cups all-purpose flour, ½ cup cocoa powder, ½ tsp baking powder, and ¼ tsp fine salt in a medium bowl. Set aside."
+        }
+      ]
+    },
+    {
+      "section": "Cream",
+      "steps": [
+        {
+          "text": "In a large bowl, beat ½ cup room-temperature butter, ½ cup granulated sugar, and ½ cup packed brown sugar together until light and creamy, about 2–3 minutes.",
+          "timerMinutes": 3,
+          "donenessCue": "Mixture should look pale and fluffy, not dense or grainy."
+        },
+        {
+          "text": "Beat in 2 large eggs one at a time, fully incorporating each before adding the next."
+        },
+        {
+          "text": "Stir in 1 tsp vanilla extract and ¼ cup champagne."
+        }
+      ]
+    },
+    {
+      "section": "Build the Dough",
+      "steps": [
+        {
+          "text": "Fold in ½ cup dark chocolate chips and ¼ cup dried raspberries."
+        },
+        {
+          "text": "Add the dry ingredients and stir until just combined. Stop as soon as no dry streaks remain."
+        }
+      ]
+    },
+    {
+      "section": "Bake",
+      "steps": [
+        {
+          "text": "Preheat the oven to 350°F (175°C). Line a baking sheet with parchment paper."
+        },
+        {
+          "text": "Roll the dough into 1-inch balls and place them 2 inches apart on the prepared baking sheet."
+        },
+        {
+          "text": "Bake for 12–15 minutes.",
+          "timerMinutes": 13,
+          "donenessCue": "The dark cocoa dough makes the edges hard to read by color — press the edge of one cookie gently with a finger. It should feel just firm while the center still has a little give. They firm up significantly as they cool."
+        }
+      ]
+    },
+    {
+      "section": "Finish",
+      "steps": [
+        {
+          "text": "Cool on the baking sheet for 5 minutes before transferring to a wire rack.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Dust with powdered sugar just before serving — don't dust too early or it absorbs into the surface."
+        }
+      ]
+    }
+  ],
+  "ifYouFeelLikeIt": [
+    "Chill the dough for 30 minutes before rolling — it firms up the dough and the cookies spread less.",
+    "Use fresh raspberries instead of dried — fold them in gently at the very end. The cookies will be more delicate and the fruit more pronounced.",
+    "Roll the dough balls in cocoa powder before baking for a truffle-style finish — skip the powdered sugar dusting if you do.",
+    "Add the zest of 1 orange to the butter mixture — it bridges the chocolate and raspberry the same way it does in the cake version."
+  ],
+  "storage": "Store in an airtight container at room temperature for up to 5 days. Dust with a fresh layer of powdered sugar before serving if they've been sitting. Freeze for up to 3 months; thaw at room temperature and re-dust before serving.",
+  "tags": ["cookies", "dark-chocolate", "raspberry", "champagne", "boozy"]
+}

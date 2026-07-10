@@ -52,14 +52,17 @@ export function InstructionSection({ group, startIndex }: Props) {
       <ol className="space-y-5" start={startIndex}>
         {group.steps.map((step, i) => (
           <li key={i} className="flex gap-3">
-            <span className="flex-shrink-0 w-6 h-6 rounded-full bg-stone-100 text-stone-500 text-xs font-semibold flex items-center justify-center mt-0.5">
+            <span
+              className="flex-shrink-0 w-6 h-6 rounded-full text-xs font-semibold flex items-center justify-center mt-0.5"
+              style={{ backgroundColor: '#E8C888', color: '#6B4226' }}
+            >
               {startIndex + i}
             </span>
             <div className="flex-1 min-w-0">
-              <p className="text-[15px] leading-relaxed text-stone-800">{step.text}</p>
+              <p className="text-[15px] leading-relaxed" style={{ color: '#3D2817' }}>{step.text}</p>
 
               {step.timerMinutes !== undefined && (
-                <p className="mt-1.5 text-xs text-stone-500">
+                <p className="mt-1.5 text-xs" style={{ color: '#8B5A2B' }}>
                   <ClockIcon />
                   {step.timerMinutes >= 60
                     ? `${Math.floor(step.timerMinutes / 60)}h${step.timerMinutes % 60 > 0 ? ` ${step.timerMinutes % 60}m` : ''}`

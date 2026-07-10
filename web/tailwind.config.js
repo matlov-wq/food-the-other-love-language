@@ -28,8 +28,9 @@ export default {
         },
       },
       fontFamily: {
-        serif: ['"Lora"', 'Georgia', 'serif'],
-        sans:  ['"Inter"', 'system-ui', 'sans-serif'],
+        display: ['"Fraunces"', 'Georgia', 'serif'],
+        serif:   ['"Lora"', 'Georgia', 'serif'],
+        sans:    ['"Inter"', 'system-ui', 'sans-serif'],
       },
     },
   },

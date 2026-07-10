@@ -10,43 +10,38 @@
   "totalTime": "4 hours 45 minutes minimum, ideally overnight (includes 4-hour chill)",
   "ingredientGroups": [
     {
-      "section": "Coconut Base",
-      "items": [
-        { "id": "shredded-coconut",  "text": "2½ cups (215g) sweetened shredded coconut" },
-        { "id": "flake-coconut",     "text": "½ cup (45g) unsweetened large-flake coconut" },
-        { "id": "coconut-flour",     "text": "¼ cup (30g) coconut flour" }
-      ]
-    },
-    {
       "section": "Dry",
       "items": [
-        { "id": "flour",             "text": "¾ cup (95g) all-purpose flour" },
-        { "id": "baking-powder",     "text": "½ tsp baking powder" },
-        { "id": "salt",              "text": "¾ tsp kosher salt" }
-      ]
-    },
-    {
-      "section": "Brown Butter",
-      "items": [
-        { "id": "butter",            "text": "¾ cup (170g) unsalted butter" },
-        { "id": "dark-brown-sugar",  "text": "1 cup (220g) dark brown sugar" },
-        { "id": "granulated-sugar",  "text": "¼ cup (50g) granulated sugar" },
-        { "id": "lime-zest",         "text": "Zest of 3 limes" }
+        { "id": "flour",         "text": "¾ cup (95g) all-purpose flour" },
+        { "id": "coconut-flour", "text": "¼ cup (30g) coconut flour" },
+        { "id": "baking-powder", "text": "½ tsp baking powder" },
+        { "id": "salt",          "text": "¾ tsp kosher salt" }
       ]
     },
     {
       "section": "Wet",
       "items": [
-        { "id": "eggs",              "text": "2 large eggs" },
+        { "id": "butter",           "text": "¾ cup (170g) unsalted butter" },
+        { "id": "dark-brown-sugar", "text": "1 cup (220g) dark brown sugar" },
+        { "id": "granulated-sugar", "text": "¼ cup (50g) granulated sugar" },
+        { "id": "lime-zest",        "text": "Zest of 3 limes" },
+        { "id": "eggs",             "text": "2 large eggs" },
         { "id": "egg-yolk",         "text": "1 large egg yolk" },
-        { "id": "vanilla",           "text": "2 tsp vanilla extract" },
-        { "id": "coconut-extract",   "text": "½ tsp coconut extract (if you feel like it)" }
+        { "id": "vanilla",          "text": "2 tsp vanilla extract" }
       ]
     },
     {
-      "section": "Finish",
+      "section": "Add-Ins",
       "items": [
-        { "id": "flaky-salt",        "text": "Flaky sea salt" }
+        { "id": "shredded-coconut", "text": "2½ cups (215g) sweetened shredded coconut, toasted" },
+        { "id": "flake-coconut",    "text": "½ cup (45g) unsweetened large-flake coconut, toasted" }
+      ]
+    },
+    {
+      "section": "Optional",
+      "items": [
+        { "id": "coconut-extract", "text": "½ tsp coconut extract" },
+        { "id": "flaky-salt",      "text": "Flaky sea salt, for finishing" }
       ]
     }
   ],
@@ -85,7 +80,7 @@
       ]
     },
     {
-      "section": "Combine and Build the Dough",
+      "section": "Build the Dough",
       "steps": [
         {
           "text": "Whisk the cooled brown butter into the lime sugar until smooth."
@@ -121,9 +116,15 @@
           "text": "Bake for 12–14 minutes.",
           "donenessCue": "Golden around the edges, slightly puffed, and soft in the middle. The centers will NOT look fully done — that's correct. Do not over-bake waiting for them to firm up.",
           "timerMinutes": 13
-        },
+        }
+      ]
+    },
+    {
+      "section": "Finish",
+      "steps": [
         {
-          "text": "Cool on the baking sheet. Finish with flaky sea salt while still warm."
+          "text": "Cool on the baking sheet for 5 minutes. Finish with flaky sea salt while still warm.",
+          "timerMinutes": 5
         }
       ]
     }

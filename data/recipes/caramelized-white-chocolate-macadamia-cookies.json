@@ -1,0 +1,114 @@
+{
+  "id": "caramelized-white-chocolate-macadamia-cookies",
+  "title": "Caramelized White Chocolate and Macadamia Nut Cookies",
+  "story": "These cookies earn their name twice — once from brown sugar doing its quiet work in the oven, again from white chocolate that can go somewhere more interesting than sweet if you let it. Macadamia nuts bring a butteriness that holds everything together. The flaked sea salt on top isn't optional. It's the thing that makes people reach for a second one before they've finished the first.",
+  "category": "Desserts",
+  "status": "draft",
+  "servings": "~24 cookies",
+  "prepTime": "15 minutes",
+  "cookTime": "12–15 minutes",
+  "totalTime": "~35 minutes",
+  "ingredientGroups": [
+    {
+      "section": "Dry",
+      "items": [
+        { "id": "flour",          "text": "2 cups all-purpose flour" },
+        { "id": "baking-powder",  "text": "1 tsp baking powder" },
+        { "id": "salt",           "text": "½ tsp fine salt" }
+      ]
+    },
+    {
+      "section": "Wet",
+      "items": [
+        { "id": "butter",            "text": "½ cup unsalted butter, at room temperature" },
+        { "id": "granulated-sugar",  "text": "½ cup granulated sugar" },
+        { "id": "brown-sugar",       "text": "½ cup brown sugar, packed" },
+        { "id": "egg",               "text": "1 large egg" },
+        { "id": "vanilla",           "text": "1 tsp vanilla extract" }
+      ]
+    },
+    {
+      "section": "Add-Ins",
+      "items": [
+        { "id": "macadamia",       "text": "½ cup macadamia nuts, roughly chopped" },
+        { "id": "white-chocolate", "text": "½ cup white chocolate, roughly chopped" }
+      ]
+    },
+    {
+      "section": "Optional",
+      "items": [
+        { "id": "flaky-salt", "text": "Flaky sea salt, for finishing" }
+      ]
+    }
+  ],
+  "instructionGroups": [
+    {
+      "section": "Mix the Dry",
+      "steps": [
+        {
+          "text": "In a medium bowl, whisk together 2 cups all-purpose flour, 1 tsp baking powder, and ½ tsp fine salt. Set aside."
+        }
+      ]
+    },
+    {
+      "section": "Cream",
+      "steps": [
+        {
+          "text": "In a large bowl, beat ½ cup room-temperature butter, ½ cup granulated sugar, and ½ cup packed brown sugar together until light and creamy, about 2–3 minutes.",
+          "timerMinutes": 3,
+          "donenessCue": "Mixture should look noticeably paler and fluffy, not grainy or dense — this step builds the cookie's lift and texture."
+        },
+        {
+          "text": "Beat in 1 large egg and 1 tsp vanilla extract until fully combined and smooth."
+        }
+      ]
+    },
+    {
+      "section": "Build the Dough",
+      "steps": [
+        {
+          "text": "Add the dry ingredients to the butter mixture and stir until just combined. Stop as soon as no dry streaks remain — overmixing toughens the cookie."
+        },
+        {
+          "text": "Fold in ½ cup roughly chopped macadamia nuts and ½ cup roughly chopped white chocolate."
+        }
+      ]
+    },
+    {
+      "section": "Bake",
+      "steps": [
+        {
+          "text": "Preheat the oven to 350°F (175°C). Line a baking sheet with parchment paper."
+        },
+        {
+          "text": "Roll the dough into 1-inch balls and place them 2 inches apart on the prepared baking sheet."
+        },
+        {
+          "text": "Sprinkle each cookie with a small pinch of flaky sea salt before they go in the oven."
+        },
+        {
+          "text": "Bake for 12–15 minutes.",
+          "timerMinutes": 13,
+          "donenessCue": "Edges are golden brown and centers look just barely set — they'll firm up as they cool. Pull them when they still look slightly underdone in the middle; overbaked is a much bigger risk here than underbaked."
+        }
+      ]
+    },
+    {
+      "section": "Finish",
+      "steps": [
+        {
+          "text": "Let the cookies cool on the baking sheet for 5 minutes before transferring to a wire rack. They're fragile straight from the oven.",
+          "timerMinutes": 5
+        }
+      ]
+    }
+  ],
+  "ifYouFeelLikeIt": [
+    "To actually caramelize the white chocolate: spread it on a parchment-lined pan and bake at 250°F (120°C), stirring every 10 minutes for 30–40 minutes, until deep golden and caramel-scented. Cool completely before chopping and folding in — this is where the name really earns itself.",
+    "Chill the dough for 30 minutes before baking. The cookies will spread less and the brown sugar flavor deepens noticeably.",
+    "Toast the macadamia nuts in a dry skillet over medium heat for 3 minutes before chopping. Cool completely before folding in.",
+    "Add ½ tsp almond extract alongside the vanilla — it plays quietly with the white chocolate without announcing itself."
+  ],
+  "storage": "Store in an airtight container at room temperature for up to 5 days. To freeze: roll into balls, freeze on a baking sheet until solid, then transfer to a bag. Bake from frozen at 350°F, adding 2–3 minutes to the bake time.",
+  "tags": ["cookies", "white-chocolate", "macadamia", "sea-salt"]
+}

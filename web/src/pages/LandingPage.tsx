@@ -14,7 +14,12 @@ export function LandingPage() {
   return (
     <div className="min-h-screen bg-stone-50">
       {/* ── Hero ─────────────────────────────────────────────── */}
-      <section className="relative min-h-[92dvh] flex flex-col" style={{ backgroundColor: '#3D2817' }}>
+      <section
+        className="relative flex flex-col min-h-[62dvh]"
+        style={{
+          background: 'radial-gradient(ellipse at 30% 65%, rgba(184, 121, 58, 0.09) 0%, transparent 58%), #3D2E1F',
+        }}
+      >
         {/* Nav */}
         <nav className="flex items-center justify-between px-6 pt-8 pb-4">
           <span className="font-serif text-sm tracking-wide" style={{ color: '#E8C888' }}>
@@ -29,38 +34,42 @@ export function LandingPage() {
           </Link>
         </nav>
 
-        {/* Title block */}
-        <div className="flex-1 flex flex-col justify-end px-6 pb-20">
-          <h1 className="font-serif leading-none mb-6" style={{ color: '#FAF3E7' }}>
-            <span className="block text-[clamp(4rem,18vw,9rem)] font-medium">
+        {/* Title block — vertically centered */}
+        <div className="flex-1 flex flex-col justify-center px-6 pb-14">
+          <h1 className="leading-none mb-6" style={{ color: '#FAF3E7' }}>
+            <span
+              className="block font-display font-black text-[clamp(4rem,18vw,9rem)]"
+              style={{ fontVariationSettings: "'opsz' 144, 'wght' 800" }}
+            >
               Food
             </span>
-            <span className="block text-[clamp(1.1rem,4.5vw,2.2rem)] italic -mt-2" style={{ color: '#E8C888' }}>
+            <span className="block font-serif italic text-[clamp(1.1rem,4.5vw,2.2rem)] -mt-2" style={{ color: '#E8C888' }}>
               The Other Love Language
             </span>
           </h1>
-          <p className="font-serif italic text-base max-w-xs leading-relaxed" style={{ color: '#8B5A2B' }}>
-            &ldquo;Love isn&rsquo;t grand gestures. It&rsquo;s attention,
-            repetition, and presence.&rdquo;
+          <p className="font-serif italic text-base max-w-[17rem] leading-relaxed" style={{ color: '#E8C888' }}>
+            Some people write cards, we cook.
+          </p>
+          <p className="mt-4 text-[10px] tracking-[0.2em] uppercase" style={{ color: '#A88860' }}>
+            six recipes, new every other month
           </p>
         </div>
 
-        {/* Scroll nudge */}
-        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1" style={{ color: '#6B4226' }}>
-          <span className="text-xs tracking-widest uppercase">
-            {theme.subtitle}
-          </span>
-          <svg
-            width={16}
-            height={16}
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth={1.5}
-            className="animate-bounce"
+        {/* Season selector pill */}
+        <div className="absolute bottom-6 left-1/2 -translate-x-1/2">
+          <div
+            className="flex items-center gap-2 rounded-full cursor-pointer transition-opacity hover:opacity-75"
+            style={{
+              color: '#E8C888',
+              border: '1px solid #8B5A2B',
+              padding: '10px 20px',
+            }}
           >
-            <polyline points="6 9 12 15 18 9" />
-          </svg>
+            <span className="text-xs tracking-widest uppercase whitespace-nowrap">{theme.subtitle}</span>
+            <svg width={12} height={12} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5}>
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </div>
         </div>
       </section>
 
@@ -70,7 +79,10 @@ export function LandingPage() {
           <p className="text-xs font-semibold uppercase tracking-widest mb-3" style={{ color: '#B8793A' }}>
             {theme.subtitle}
           </p>
-          <h2 className="font-serif text-4xl leading-tight mb-5" style={{ color: '#3D2817' }}>
+          <h2
+            className="font-display font-bold text-4xl leading-tight mb-5"
+            style={{ color: '#3D2817', fontVariationSettings: "'opsz' 72, 'wght' 700" }}
+          >
             {theme.title}
           </h2>
           <p className="text-base leading-relaxed max-w-lg" style={{ color: '#6B4226' }}>
@@ -106,7 +118,7 @@ export function LandingPage() {
             <p className="text-xs font-semibold uppercase tracking-widest mb-1" style={{ color: '#8B5A2B' }}>
               Coming up
             </p>
-            <p className="font-serif text-lg" style={{ color: '#3D2817' }}>
+            <p className="font-display font-semibold text-lg" style={{ color: '#3D2817', fontVariationSettings: "'opsz' 36, 'wght' 600" }}>
               {nextTheme.title}
             </p>
             <p className="text-xs mt-0.5" style={{ color: '#B8793A' }}>{nextTheme.subtitle}</p>

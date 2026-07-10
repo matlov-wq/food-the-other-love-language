@@ -24,6 +24,33 @@ should render a recipe.
 - **"If You Feel Like It"** — the label for optional additions or variations.
   Never "optional," never "tip." Keeps a consistent, warm voice.
 
+## Section labels — do not invent new ones
+
+These are the only allowed labels. Use them exactly as written.
+
+### Ingredient groups
+
+| Label | What goes here |
+|---|---|
+| `Dry` | Flours, leavening, salt, ground spices |
+| `Wet` | Butter, sugars, eggs, extracts, citrus zest, liquids |
+| `Add-Ins` | Mix-ins folded in at the end — nuts, chocolate, fruit, coconut |
+| `Optional` | Finishing garnishes (flaky salt, zest, drizzle) and truly optional extras |
+
+### Instruction groups
+
+| Label | What it covers |
+|---|---|
+| *(recipe-specific)* | A technique unique to this recipe that warrants naming — e.g. `Brown the Butter`, `Toast the Coconut`. Only add one if the step is genuinely distinct and sets the recipe apart. |
+| `Mix the Dry` | Whisk/combine all dry ingredients |
+| `Cream` | Beat butter and sugars together |
+| `Build the Dough` | Combine wet into dry, fold in add-ins |
+| `Chill` | Rest time in the fridge — only include if required |
+| `Bake` | Oven steps |
+| `Finish` | Cool, garnish, serve |
+
+The recipe-specific step (if any) always comes first, before `Mix the Dry`.
+
 ## Recipe template (matches `recipe.schema.json`)
 
 ```

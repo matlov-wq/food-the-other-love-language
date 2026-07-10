@@ -1,0 +1,115 @@
+{
+  "id": "lemon-basil-cake",
+  "title": "Lemon-Basil Cake",
+  "story": "Lemon and basil make sense together in the same way lemon and thyme do — they share something underneath the surface. The basil doesn't read as 'herbs in a cake.' It reads as brightness, the kind that makes people say the cake tastes especially fresh without being able to say why. The lemon glaze is not optional.",
+  "category": "Desserts",
+  "status": "draft",
+  "servings": "8–12 slices",
+  "prepTime": "20 minutes",
+  "cookTime": "35–40 minutes",
+  "totalTime": "~1 hour 30 minutes (includes cooling)",
+  "ingredientGroups": [
+    {
+      "section": "Dry",
+      "items": [
+        { "id": "flour",         "text": "2 cups all-purpose flour" },
+        { "id": "baking-powder", "text": "1 tbsp baking powder" },
+        { "id": "salt",          "text": "½ tsp fine salt" }
+      ]
+    },
+    {
+      "section": "Wet",
+      "items": [
+        { "id": "butter",       "text": "½ cup unsalted butter, at room temperature" },
+        { "id": "sugar",        "text": "1 cup granulated sugar" },
+        { "id": "eggs",         "text": "2 large eggs" },
+        { "id": "vanilla",      "text": "1 tsp vanilla extract" },
+        { "id": "milk",         "text": "½ cup whole milk" },
+        { "id": "lemon-zest",   "text": "2 tbsp finely grated lemon zest (about 2 lemons)" },
+        { "id": "basil",        "text": "¼ cup fresh basil, finely chopped" }
+      ]
+    },
+    {
+      "section": "Optional",
+      "items": [
+        { "id": "lemon-glaze-sugar", "text": "½ cup powdered sugar, for glaze" },
+        { "id": "lemon-juice",       "text": "3 tbsp fresh lemon juice, for glaze" },
+        { "id": "powdered-sugar",    "text": "Powdered sugar, for dusting (instead of glaze)" }
+      ]
+    }
+  ],
+  "instructionGroups": [
+    {
+      "section": "Mix the Dry",
+      "steps": [
+        {
+          "text": "Whisk together 2 cups all-purpose flour, 1 tbsp baking powder, and ½ tsp fine salt in a medium bowl. Set aside."
+        }
+      ]
+    },
+    {
+      "section": "Cream",
+      "steps": [
+        {
+          "text": "In a large bowl, beat ½ cup room-temperature butter and 1 cup granulated sugar together until light and creamy, about 3 minutes.",
+          "timerMinutes": 3,
+          "donenessCue": "Mixture should look pale and noticeably fluffy — this is what lifts the cake."
+        },
+        {
+          "text": "Beat in 2 large eggs one at a time, fully incorporating each before adding the next."
+        },
+        {
+          "text": "Stir in 1 tsp vanilla extract, ½ cup whole milk, 2 tbsp lemon zest, and ¼ cup finely chopped fresh basil."
+        }
+      ]
+    },
+    {
+      "section": "Build the Batter",
+      "steps": [
+        {
+          "text": "Add the dry ingredients to the wet mixture and stir until just combined. Stop as soon as no dry streaks remain — overmixing makes this cake dense."
+        }
+      ]
+    },
+    {
+      "section": "Bake",
+      "steps": [
+        {
+          "text": "Preheat the oven to 350°F (175°C). Grease and flour a 9-inch round cake pan."
+        },
+        {
+          "text": "Pour the batter into the prepared pan and smooth the top."
+        },
+        {
+          "text": "Bake for 35–40 minutes.",
+          "timerMinutes": 38,
+          "donenessCue": "A toothpick inserted into the center should come out clean or with a few dry crumbs. The edges will have pulled slightly away from the pan and the top will spring back when pressed lightly."
+        }
+      ]
+    },
+    {
+      "section": "Finish",
+      "steps": [
+        {
+          "text": "Cool in the pan for 10 minutes, then turn out onto a wire rack to cool completely before glazing.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Make the lemon glaze: whisk ½ cup powdered sugar with 3 tbsp fresh lemon juice until completely smooth with no lumps."
+        },
+        {
+          "text": "Pour the glaze over the fully cooled cake and let it set for 10–15 minutes before slicing. Pouring over a warm cake will make the glaze disappear into the surface.",
+          "timerMinutes": 12
+        }
+      ]
+    }
+  ],
+  "ifYouFeelLikeIt": [
+    "Make basil sugar: blitz ¼ cup fresh basil with the 1 cup granulated sugar in a food processor before creaming. The basil flavor infuses the whole cake instead of sitting in pockets.",
+    "Brown the butter before creaming — let it cool to room temperature first. It adds a nutty depth that makes the lemon and basil taste more complex.",
+    "Fold ½ cup fresh raspberries into the batter just before pouring — they pair with both the lemon and basil and hold their shape through the bake.",
+    "Add an extra tablespoon of lemon zest to the glaze for a more assertive citrus finish."
+  ],
+  "storage": "Store glazed cake loosely covered at room temperature for up to 2 days, or in the refrigerator for up to 5 days. Bring to room temperature before serving — the crumb firms up when cold. Unglazed cake freezes well for up to 3 months; glaze after thawing.",
+  "tags": ["cake", "lemon", "basil", "glaze", "spring"]
+}

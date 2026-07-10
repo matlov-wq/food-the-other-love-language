@@ -1,0 +1,111 @@
+{
+  "id": "matcha-white-chocolate-chip-cookies",
+  "title": "Matcha White Chocolate Chip Cookies",
+  "story": "Matcha doesn't just flavor these cookies — it colors them. That pale jade dough studded with white chocolate is the kind of thing that makes people stop and ask. The bitterness of the tea and the sweetness of the chocolate do exactly what you want them to do: they keep each other in check. Use the best matcha you can find. You'll taste the difference.",
+  "category": "Desserts",
+  "status": "draft",
+  "servings": "~24 cookies",
+  "prepTime": "15 minutes",
+  "cookTime": "12–15 minutes",
+  "totalTime": "~30 minutes",
+  "ingredientGroups": [
+    {
+      "section": "Dry",
+      "items": [
+        { "id": "flour",         "text": "2 cups all-purpose flour" },
+        { "id": "baking-powder", "text": "1 tsp baking powder" },
+        { "id": "matcha",        "text": "2 tbsp matcha powder" },
+        { "id": "salt",          "text": "½ tsp fine salt" }
+      ]
+    },
+    {
+      "section": "Wet",
+      "items": [
+        { "id": "butter",           "text": "½ cup unsalted butter, at room temperature" },
+        { "id": "granulated-sugar", "text": "½ cup granulated sugar" },
+        { "id": "brown-sugar",      "text": "½ cup brown sugar, packed" },
+        { "id": "egg",              "text": "1 large egg" },
+        { "id": "vanilla",          "text": "1 tsp vanilla extract" }
+      ]
+    },
+    {
+      "section": "Add-Ins",
+      "items": [
+        { "id": "white-chocolate", "text": "1 cup white chocolate chips" }
+      ]
+    },
+    {
+      "section": "Optional",
+      "items": [
+        { "id": "flaky-salt", "text": "Flaky sea salt, for finishing" }
+      ]
+    }
+  ],
+  "instructionGroups": [
+    {
+      "section": "Mix the Dry",
+      "steps": [
+        {
+          "text": "Sift 2 cups all-purpose flour, 1 tsp baking powder, 2 tbsp matcha powder, and ½ tsp fine salt into a medium bowl. Sifting the matcha prevents green clumps in the finished cookie."
+        }
+      ]
+    },
+    {
+      "section": "Cream",
+      "steps": [
+        {
+          "text": "In a large bowl, beat ½ cup room-temperature butter, ½ cup granulated sugar, and ½ cup packed brown sugar together until light and creamy, about 2–3 minutes.",
+          "timerMinutes": 3,
+          "donenessCue": "Mixture should look noticeably paler and fluffy — this builds the cookie's structure."
+        },
+        {
+          "text": "Beat in 1 large egg and 1 tsp vanilla extract until fully combined."
+        }
+      ]
+    },
+    {
+      "section": "Build the Dough",
+      "steps": [
+        {
+          "text": "Add the dry ingredients to the butter mixture and stir until just combined. Stop as soon as no dry streaks remain."
+        },
+        {
+          "text": "Fold in 1 cup white chocolate chips."
+        }
+      ]
+    },
+    {
+      "section": "Bake",
+      "steps": [
+        {
+          "text": "Preheat the oven to 350°F (175°C). Line a baking sheet with parchment paper."
+        },
+        {
+          "text": "Roll the dough into 1-inch balls and place them 2 inches apart on the prepared baking sheet."
+        },
+        {
+          "text": "Bake for 12–15 minutes.",
+          "timerMinutes": 13,
+          "donenessCue": "The matcha color makes the tops unreliable — watch the edges instead. They should look just set and dry at the rim while the centers still look soft. They'll firm up as they cool."
+        }
+      ]
+    },
+    {
+      "section": "Finish",
+      "steps": [
+        {
+          "text": "Cool on the baking sheet for 5 minutes before transferring to a wire rack. Sprinkle with flaky sea salt while still warm if using.",
+          "timerMinutes": 5
+        }
+      ]
+    }
+  ],
+  "ifYouFeelLikeIt": [
+    "Chill the dough for 30 minutes before baking — the cookies spread less and the matcha flavor deepens.",
+    "Use ceremonial-grade matcha for a more vivid green color and a cleaner, less bitter flavor. Culinary grade works but the color will be duller.",
+    "Swap the chips for roughly chopped white chocolate — the irregular pieces melt into better puddles.",
+    "Add ¼ tsp almond extract alongside the vanilla for a subtle richness that plays well with the matcha."
+  ],
+  "storage": "Store in an airtight container at room temperature for up to 5 days. Freeze unbaked dough balls for up to 3 months — bake from frozen at 350°F, adding 2–3 minutes to the bake time.",
+  "tags": ["cookies", "matcha", "white-chocolate", "green-tea"]
+}

@@ -44,7 +44,8 @@ These are the only allowed labels. Use them exactly as written.
 | *(recipe-specific)* | A technique unique to this recipe that warrants naming — e.g. `Brown the Butter`, `Toast the Coconut`. Only add one if the step is genuinely distinct and sets the recipe apart. |
 | `Mix the Dry` | Whisk/combine all dry ingredients |
 | `Cream` | Beat butter and sugars together |
-| `Build the Dough` | Combine wet into dry, fold in add-ins |
+| `Build the Dough` | Combine wet into dry, fold in add-ins — for shaped/scoopable doughs (cookies, scones) |
+| `Build the Batter` | Combine wet into dry, fold in add-ins — for pourable batters (cakes, quick breads) |
 | `Chill` | Rest time in the fridge — only include if required |
 | `Bake` | Oven steps |
 | `Finish` | Cool, garnish, serve |

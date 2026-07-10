@@ -1,0 +1,120 @@
+{
+  "id": "dark-chocolate-raspberry-champagne-cake",
+  "title": "Dark Chocolate, Raspberry and Champagne Cake",
+  "story": "This is a party cake — not because it's difficult, but because the ingredients announce something. The champagne doesn't give you bubbles in the finished cake; it gives the crumb a lightness and a subtle acidity that plays against the cocoa. The dried raspberries keep their shape and their tartness throughout the bake. Between the two of them, the chocolate has something to work against.",
+  "category": "Desserts",
+  "status": "draft",
+  "servings": "8–12 slices",
+  "prepTime": "25 minutes",
+  "cookTime": "35–40 minutes",
+  "totalTime": "~1 hour 30 minutes (includes cooling)",
+  "ingredientGroups": [
+    {
+      "section": "Dry",
+      "items": [
+        { "id": "flour",         "text": "2 cups all-purpose flour" },
+        { "id": "cocoa-powder",  "text": "1 cup cocoa powder" },
+        { "id": "baking-powder", "text": "2 tsp baking powder" },
+        { "id": "salt",          "text": "1 tsp fine salt" }
+      ]
+    },
+    {
+      "section": "Wet",
+      "items": [
+        { "id": "butter",           "text": "1 cup unsalted butter, at room temperature" },
+        { "id": "granulated-sugar", "text": "1 cup granulated sugar" },
+        { "id": "brown-sugar",      "text": "1 cup brown sugar, packed" },
+        { "id": "eggs",             "text": "4 large eggs" },
+        { "id": "vanilla",          "text": "2 tsp vanilla extract" },
+        { "id": "champagne",        "text": "½ cup champagne or dry sparkling wine" }
+      ]
+    },
+    {
+      "section": "Add-Ins",
+      "items": [
+        { "id": "dark-chocolate",    "text": "1 cup dark chocolate chips" },
+        { "id": "dried-raspberries", "text": "½ cup dried raspberries" }
+      ]
+    },
+    {
+      "section": "Optional",
+      "items": [
+        { "id": "powdered-sugar", "text": "Powdered sugar, for dusting" },
+        { "id": "frosting",       "text": "Chocolate ganache or buttercream, for frosting" }
+      ]
+    }
+  ],
+  "instructionGroups": [
+    {
+      "section": "Mix the Dry",
+      "steps": [
+        {
+          "text": "Whisk together 2 cups all-purpose flour, 1 cup cocoa powder, 2 tsp baking powder, and 1 tsp fine salt in a medium bowl. Set aside."
+        }
+      ]
+    },
+    {
+      "section": "Cream",
+      "steps": [
+        {
+          "text": "In a large bowl, beat 1 cup room-temperature butter, 1 cup granulated sugar, and 1 cup packed brown sugar together until light and creamy, about 3 minutes.",
+          "timerMinutes": 3,
+          "donenessCue": "Mixture should look noticeably paler and fluffy. Don't rush this step — it builds the cake's structure."
+        },
+        {
+          "text": "Beat in 4 large eggs one at a time, fully incorporating each before adding the next."
+        },
+        {
+          "text": "Stir in 2 tsp vanilla extract and ½ cup champagne."
+        }
+      ]
+    },
+    {
+      "section": "Build the Batter",
+      "steps": [
+        {
+          "text": "Fold in 1 cup dark chocolate chips and ½ cup dried raspberries."
+        },
+        {
+          "text": "Add the dry ingredients and stir until just combined. Stop as soon as no dry streaks remain — overmixing toughens the crumb."
+        }
+      ]
+    },
+    {
+      "section": "Bake",
+      "steps": [
+        {
+          "text": "Preheat the oven to 350°F (175°C). Grease and flour a 9-inch round cake pan."
+        },
+        {
+          "text": "Pour the batter into the prepared pan and smooth the top."
+        },
+        {
+          "text": "Bake for 35–40 minutes.",
+          "timerMinutes": 38,
+          "donenessCue": "A toothpick inserted into the center should come out clean or with just a few moist crumbs — not wet batter. The top should look set and spring back slightly when pressed."
+        }
+      ]
+    },
+    {
+      "section": "Finish",
+      "steps": [
+        {
+          "text": "Cool in the pan for 10 minutes, then turn out onto a wire rack to cool completely before finishing.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Once fully cooled, dust with powdered sugar or frost with chocolate ganache or buttercream. Dusting is enough — this cake doesn't need much help."
+        }
+      ]
+    }
+  ],
+  "ifYouFeelLikeIt": [
+    "Use fresh raspberries instead of dried — fold them in gently at the very end. The cake will be more delicate and the pockets of fruit more pronounced.",
+    "Make a simple chocolate ganache: heat ½ cup heavy cream until just simmering, pour over ½ cup chopped dark chocolate, let sit 2 minutes, then stir until smooth. Pour over the cooled cake.",
+    "Add the zest of 1 orange to the butter mixture — it bridges the chocolate and raspberry in a way that makes both taste more like themselves.",
+    "Bake as cupcakes at 350°F for 18–22 minutes. Same batter, more surface area for the powdered sugar."
+  ],
+  "storage": "Store loosely covered at room temperature for up to 3 days, or in the refrigerator for up to 5 days. If refrigerated, bring to room temperature before serving — cold cake loses its texture. Freeze unfrosted cake (wrapped tightly) for up to 3 months.",
+  "tags": ["cake", "dark-chocolate", "raspberry", "champagne", "boozy"]
+}

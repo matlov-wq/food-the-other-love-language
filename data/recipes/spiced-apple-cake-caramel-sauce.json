@@ -1,0 +1,122 @@
+{
+  "id": "spiced-apple-cake-caramel-sauce",
+  "title": "Spiced Apple Cake with Caramel Sauce",
+  "story": "This is autumn in a cake pan. The spice blend isn't subtle — it's the whole point. The grated apples disappear into the crumb as they bake, leaving moisture and flavor behind without a single chunk to interrupt the texture. The caramel sauce is the kind of finish that makes the difference between a good cake and one people talk about.",
+  "category": "Desserts",
+  "status": "draft",
+  "servings": "8–12 slices",
+  "prepTime": "25 minutes",
+  "cookTime": "35–40 minutes",
+  "totalTime": "~1 hour 30 minutes (includes cooling)",
+  "ingredientGroups": [
+    {
+      "section": "Dry",
+      "items": [
+        { "id": "flour",         "text": "2 cups all-purpose flour" },
+        { "id": "baking-powder", "text": "1 tsp baking powder" },
+        { "id": "cinnamon",      "text": "1 tsp ground cinnamon" },
+        { "id": "nutmeg",        "text": "½ tsp ground nutmeg" },
+        { "id": "ginger",        "text": "¼ tsp ground ginger" },
+        { "id": "allspice",      "text": "¼ tsp ground allspice" },
+        { "id": "salt",          "text": "½ tsp fine salt" }
+      ]
+    },
+    {
+      "section": "Wet",
+      "items": [
+        { "id": "butter",  "text": "½ cup unsalted butter, at room temperature" },
+        { "id": "sugar",   "text": "1 cup granulated sugar" },
+        { "id": "eggs",    "text": "2 large eggs" },
+        { "id": "vanilla", "text": "1 tsp vanilla extract" },
+        { "id": "milk",    "text": "½ cup whole milk" }
+      ]
+    },
+    {
+      "section": "Add-Ins",
+      "items": [
+        { "id": "apples", "text": "2 cups peeled and grated apple (about 2 medium apples)" }
+      ]
+    },
+    {
+      "section": "Optional",
+      "items": [
+        { "id": "pecans",        "text": "½ cup pecans, roughly chopped" },
+        { "id": "caramel-sauce", "text": "Caramel sauce, for drizzling" }
+      ]
+    }
+  ],
+  "instructionGroups": [
+    {
+      "section": "Mix the Dry",
+      "steps": [
+        {
+          "text": "Whisk together 2 cups all-purpose flour, 1 tsp baking powder, 1 tsp cinnamon, ½ tsp nutmeg, ¼ tsp ginger, ¼ tsp allspice, and ½ tsp fine salt in a medium bowl. Set aside."
+        }
+      ]
+    },
+    {
+      "section": "Cream",
+      "steps": [
+        {
+          "text": "In a large bowl, beat ½ cup room-temperature butter and 1 cup granulated sugar together until light and creamy, about 3 minutes.",
+          "timerMinutes": 3,
+          "donenessCue": "Mixture should look pale and fluffy — this builds the cake's lift."
+        },
+        {
+          "text": "Beat in 2 large eggs one at a time, fully incorporating each before adding the next."
+        },
+        {
+          "text": "Stir in 1 tsp vanilla extract and ½ cup whole milk."
+        }
+      ]
+    },
+    {
+      "section": "Build the Batter",
+      "steps": [
+        {
+          "text": "Fold in 2 cups peeled and grated apple. If using ½ cup pecans, fold them in now as well. The batter will look wet — that's correct, the apples add significant moisture."
+        },
+        {
+          "text": "Add the dry ingredients and stir until just combined. Stop as soon as no dry streaks remain."
+        }
+      ]
+    },
+    {
+      "section": "Bake",
+      "steps": [
+        {
+          "text": "Preheat the oven to 350°F (175°C). Grease and flour a 9-inch round cake pan."
+        },
+        {
+          "text": "Pour the batter into the prepared pan and smooth the top."
+        },
+        {
+          "text": "Bake for 35–40 minutes.",
+          "timerMinutes": 38,
+          "donenessCue": "A toothpick inserted into the center should come out clean or with a few dry crumbs. The apple moisture in this batter means it may need the full 40 minutes — don't pull it early based on the top color alone."
+        }
+      ]
+    },
+    {
+      "section": "Finish",
+      "steps": [
+        {
+          "text": "Cool in the pan for 10 minutes, then turn out onto a wire rack to cool completely.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Drizzle with caramel sauce just before serving. If serving a group, pour caramel over the whole cake; if serving over time, keep the sauce on the side so it doesn't make the top soggy."
+        }
+      ]
+    }
+  ],
+  "ifYouFeelLikeIt": [
+    "Make a quick caramel sauce: cook 1 cup granulated sugar in a dry pan over medium heat, swirling (not stirring) until deep amber. Remove from heat, carefully whisk in ½ cup warm heavy cream, then 2 tbsp butter and a pinch of salt. It keeps in the fridge for 2 weeks.",
+    "Toast the pecans in a dry skillet for 3 minutes before folding in — the spice mix already perfumes the kitchen, toasted pecans take it further.",
+    "Add a pinch of black pepper to the dry ingredients. It's invisible in the finished cake but makes every other spice taste more like itself.",
+    "Serve warm slices with vanilla ice cream and the caramel sauce poured over both — the contrast of cold ice cream and warm cake is the point.",
+    "Use a mix of apple varieties: one tart (Granny Smith) and one sweet (Honeycrisp) for more complex flavor."
+  ],
+  "storage": "Store loosely covered at room temperature for up to 4 days — the apple content keeps this cake moist longer than most. Refrigerate for up to 1 week. Store caramel sauce separately and add at serving time. Freeze unglazed cake for up to 3 months.",
+  "tags": ["cake", "apple", "cinnamon", "caramel", "fall", "spiced"]
+}

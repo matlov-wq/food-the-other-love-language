@@ -1,0 +1,94 @@
+{
+  "id": "brown-butter-lime-curd",
+  "title": "Brown Butter Lime Curd",
+  "story": "The brown butter adds something underneath the lime that's hard to name but easy to notice. If you've been paying attention to this cookbook, you already know how we feel about the cardamom.",
+  "category": "Sauces & Condiments",
+  "status": "draft",
+  "servings": "About 2 cups",
+  "prepTime": "15 minutes",
+  "cookTime": "15 minutes",
+  "totalTime": "About 30 minutes",
+  "ingredientGroups": [
+    {
+      "section": "Dry",
+      "items": [
+        { "id": "sugar", "text": "1 cup (200g) granulated sugar" },
+        { "id": "salt",  "text": "¼ tsp fine sea salt" }
+      ]
+    },
+    {
+      "section": "Wet",
+      "items": [
+        { "id": "egg-yolks",  "text": "6 large egg yolks" },
+        { "id": "lime-juice", "text": "½ cup (120ml) fresh lime juice" },
+        { "id": "lime-zest",  "text": "2 tbsp finely grated lime zest" },
+        { "id": "butter",     "text": "½ cup (113g) unsalted butter" }
+      ]
+    },
+    {
+      "section": "Optional",
+      "items": [
+        { "id": "cardamom",  "text": "¼ tsp ground cardamom (optional, but recommended)" },
+        { "id": "flaky-salt", "text": "Flaky sea salt, for finishing" }
+      ]
+    }
+  ],
+  "instructionGroups": [
+    {
+      "section": "Brown the Butter",
+      "steps": [
+        {
+          "text": "Cook ½ cup unsalted butter in a saucepan over medium heat, stirring occasionally.",
+          "donenessCue": "Milk solids turn deep golden brown and it smells nutty. Pull it off the heat at that point."
+        },
+        {
+          "text": "Remove from heat and immediately stir in 2 tbsp lime zest and ¼ tsp ground cardamom if using. Let cool until warm but no longer hot before continuing."
+        }
+      ]
+    },
+    {
+      "section": "Combine",
+      "steps": [
+        {
+          "text": "In a medium heavy-bottomed saucepan, whisk together 6 egg yolks, 1 cup granulated sugar, ½ cup fresh lime juice, and ¼ tsp fine sea salt until smooth."
+        }
+      ]
+    },
+    {
+      "section": "Cook",
+      "steps": [
+        {
+          "text": "Place over medium-low heat. Cook, stirring constantly and scraping the bottom and corners of the pan.",
+          "timerMinutes": 10,
+          "donenessCue": "Thick enough to coat the back of a spoon and hold a line when you drag a finger through it. Do not let it boil."
+        }
+      ]
+    },
+    {
+      "section": "Finish",
+      "steps": [
+        {
+          "text": "Remove from heat. Slowly whisk in the cooled brown butter until completely smooth."
+        },
+        {
+          "text": "Pass through a fine-mesh sieve into a clean bowl or jar. The curd should look glossy and silky."
+        }
+      ]
+    },
+    {
+      "section": "Chill",
+      "steps": [
+        {
+          "text": "Press plastic wrap directly against the surface. Cool to room temperature, then refrigerate until completely cold. The curd will continue to thicken as it chills.",
+          "timerMinutes": 30
+        }
+      ]
+    }
+  ],
+  "ifYouFeelLikeIt": [
+    "Sprinkle a small pinch of flaky sea salt over the curd just before serving on toast or scones. It wakes up both the lime and the browned butter.",
+    "Leave the browned milk solids in when you strain — or don't strain at all if you want maximum nuttiness. The texture will be slightly less silky but the flavor trades up."
+  ],
+  "storage": "Keeps refrigerated for up to 2 weeks with plastic wrap pressed against the surface. Does not freeze well.",
+  "tags": ["curd", "lime", "brown-butter", "cardamom", "condiment", "make-ahead"]
+}

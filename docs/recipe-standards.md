@@ -46,11 +46,13 @@ These are the only allowed labels. Use them exactly as written.
 | `Cream` | Beat butter and sugars together |
 | `Build the Dough` | Combine wet into dry, fold in add-ins — for shaped/scoopable doughs (cookies, scones) |
 | `Build the Batter` | Combine wet into dry, fold in add-ins — for pourable batters (cakes, quick breads) |
+| `Combine` | Whisk/mix ingredients together before cooking — stovetop/sauce recipes |
+| `Cook` | Stovetop cooking steps — curds, sauces, caramels |
 | `Chill` | Rest time in the fridge — only include if required |
 | `Bake` | Oven steps |
-| `Finish` | Cool, garnish, serve |
+| `Finish` | Cool, garnish, serve, strain |
 
-The recipe-specific step (if any) always comes first, before `Mix the Dry`.
+The recipe-specific step (if any) always comes first, before `Mix the Dry` or `Combine`.
 
 ## Recipe template (matches `recipe.schema.json`)
 

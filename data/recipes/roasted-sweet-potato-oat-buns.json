@@ -1,0 +1,291 @@
+{
+  "id": "roasted-sweet-potato-oat-buns",
+  "title": "Roasted Sweet Potato–Oat Buns",
+  "category": "Desserts",
+  "status": "draft",
+  "servings": "12 buns (standard muffin pan)",
+  "totalTime": "~4 hours (includes roasting and two rises)",
+  "ingredientGroups": [
+    {
+      "section": "Sweet Potato",
+      "items": [
+        {
+          "id": "large-orange-fleshed-sweet-potato-enough",
+          "text": "1 large orange-fleshed sweet potato (enough for 2 cups mashed)"
+        }
+      ]
+    },
+    {
+      "section": "Yeast Bloom",
+      "items": [
+        {
+          "id": "soy-milk",
+          "text": "¼ cup soy milk"
+        },
+        {
+          "id": "honey",
+          "text": "2 tablespoons honey"
+        },
+        {
+          "id": "active-dry-yeast",
+          "text": "2¼ teaspoons active dry yeast"
+        }
+      ]
+    },
+    {
+      "section": "Wet Mixture",
+      "items": [
+        {
+          "id": "roasted-mashed-sweet-potato-from-above",
+          "text": "2 cups roasted mashed sweet potato (from above)"
+        },
+        {
+          "id": "large-eggs",
+          "text": "2 large eggs"
+        },
+        {
+          "id": "container-5-3-oz-high-protein-vanilla-so",
+          "text": "1 container (5.3 oz) high-protein vanilla soy yogurt"
+        },
+        {
+          "id": "grapeseed-oil",
+          "text": "¼ cup grapeseed oil"
+        },
+        {
+          "id": "vanilla-extract",
+          "text": "2 tablespoons vanilla extract"
+        },
+        {
+          "id": "zest-of-1-orange",
+          "text": "Zest of 1 orange"
+        }
+      ]
+    },
+    {
+      "section": "Dry Ingredients",
+      "items": [
+        {
+          "id": "all-purpose-flour",
+          "text": "2 cups all-purpose flour"
+        },
+        {
+          "id": "whole-wheat-flour",
+          "text": "1 cup whole-wheat flour"
+        },
+        {
+          "id": "oat-flour",
+          "text": "½ cup oat flour"
+        },
+        {
+          "id": "ground-cinnamon",
+          "text": "2 teaspoons ground cinnamon"
+        },
+        {
+          "id": "ground-nutmeg",
+          "text": "1 teaspoon ground nutmeg"
+        },
+        {
+          "id": "ground-ginger",
+          "text": "½ teaspoon ground ginger"
+        },
+        {
+          "id": "ground-allspice",
+          "text": "¼ teaspoon ground allspice"
+        },
+        {
+          "id": "sea-salt",
+          "text": "1 teaspoon sea salt"
+        }
+      ]
+    },
+    {
+      "section": "Almond-Pecan Filling",
+      "items": [
+        {
+          "id": "almond-flour",
+          "text": "¾ cup almond flour"
+        },
+        {
+          "id": "pecans-finely-chopped",
+          "text": "½ cup pecans, finely chopped"
+        },
+        {
+          "id": "butter-softened",
+          "text": "3 tablespoons butter, softened"
+        },
+        {
+          "id": "honey-2",
+          "text": "2 tablespoons honey"
+        },
+        {
+          "id": "ground-cinnamon-2",
+          "text": "1 teaspoon ground cinnamon"
+        },
+        {
+          "id": "vanilla-extract-2",
+          "text": "½ teaspoon vanilla extract"
+        },
+        {
+          "id": "zest-of-orange",
+          "text": "Zest of ½ orange"
+        },
+        {
+          "id": "pinch-of-sea-salt",
+          "text": "Pinch of sea salt"
+        }
+      ]
+    },
+    {
+      "section": "Honey-Orange Glaze",
+      "items": [
+        {
+          "id": "honey-3",
+          "text": "3 tablespoons honey"
+        },
+        {
+          "id": "fresh-orange-juice",
+          "text": "1 tablespoon fresh orange juice"
+        },
+        {
+          "id": "orange-zest",
+          "text": "1 teaspoon orange zest"
+        },
+        {
+          "id": "vanilla-extract-3",
+          "text": "½ teaspoon vanilla extract"
+        },
+        {
+          "id": "pinch-of-sea-salt-2",
+          "text": "Pinch of sea salt"
+        },
+        {
+          "id": "butter-if-you-feel-like-it",
+          "text": "1 tablespoon butter (if you feel like it)"
+        }
+      ]
+    }
+  ],
+  "instructionGroups": [
+    {
+      "section": "Roast the Sweet Potato",
+      "steps": [
+        {
+          "text": "Heat the oven to 400°F. Scrub the sweet potato, leave the skin on, and pierce it several times with a fork. Roast on a baking sheet for 45–75 minutes, depending on size.",
+          "donenessCue": "A knife slides easily through the center.",
+          "timerMinutes": 60
+        },
+        {
+          "text": "Cool until comfortable to handle, then peel and mash until completely smooth. Measure out 2 cups. Don’t add water, milk, or butter — you want its natural moisture and concentrated roasted flavor."
+        }
+      ]
+    },
+    {
+      "section": "Bloom the Yeast",
+      "steps": [
+        {
+          "text": "Warm the ¼ cup soy milk to about 105–110°F. Stir in the 2 tablespoons honey and 2¼ teaspoons yeast. Let sit 5–10 minutes.",
+          "donenessCue": "Creamy and visibly bubbly.",
+          "timerMinutes": 10
+        }
+      ]
+    },
+    {
+      "section": "Make the Dough",
+      "steps": [
+        {
+          "text": "Whisk together the 2 cups mashed sweet potato, 2 eggs, 5.3 oz vanilla soy yogurt, ¼ cup grapeseed oil, 2 tablespoons vanilla, and zest of 1 orange until smooth and uniform."
+        },
+        {
+          "text": "In a separate bowl, whisk the 2 cups all-purpose flour, 1 cup whole-wheat flour, ½ cup oat flour, 2 teaspoons cinnamon, 1 teaspoon nutmeg, ½ teaspoon ginger, ¼ teaspoon allspice, and 1 teaspoon sea salt."
+        },
+        {
+          "text": "Pour the bloomed yeast into the wet sweet-potato mixture and stir. Add the combined wet mixture to the dry ingredients and stir until a shaggy dough forms. Don’t add extra flour right away — this dough should be soft and somewhat sticky."
+        },
+        {
+          "text": "Turn the dough onto a lightly floured surface. Knead 6–8 minutes, adding flour only 1 tablespoon at a time if absolutely necessary.",
+          "donenessCue": "Soft, elastic, slightly tacky — not a stiff bread dough.",
+          "timerMinutes": 8
+        }
+      ]
+    },
+    {
+      "section": "First Rise",
+      "steps": [
+        {
+          "text": "Place in a lightly oiled bowl. Cover and let rise somewhere warm for 60–90 minutes.",
+          "donenessCue": "Noticeably puffy and close to doubled.",
+          "timerMinutes": 75
+        }
+      ]
+    },
+    {
+      "section": "Make the Filling",
+      "steps": [
+        {
+          "text": "Mix the ¾ cup almond flour, 3 tablespoons softened butter, 2 tablespoons honey, 1 teaspoon cinnamon, ½ teaspoon vanilla, zest of ½ orange, and pinch of salt into a cohesive, spreadable paste. Fold in the ½ cup chopped pecans.",
+          "donenessCue": "Soft and spreadable, not crumbly. Too dry? Add another teaspoon of softened butter."
+        }
+      ]
+    },
+    {
+      "section": "Shape",
+      "steps": [
+        {
+          "text": "Turn the risen dough onto a lightly floured surface. Gently roll into roughly a 12 × 18-inch rectangle. Don’t flatten aggressively — preserve the air."
+        },
+        {
+          "text": "Spread the filling evenly, leaving about ½ inch bare around the edges."
+        },
+        {
+          "text": "Starting from the long side, roll into a reasonably tight log. Pinch the seam closed."
+        },
+        {
+          "text": "Cut the log into 12 roughly equal pieces. Place each cut-side up in a lined standard muffin pan. They should fill about ½–⅔ of each cup."
+        }
+      ]
+    },
+    {
+      "section": "Second Rise",
+      "steps": [
+        {
+          "text": "Cover loosely and let rise 30–45 minutes.",
+          "donenessCue": "Visibly puffy — not necessarily doubled.",
+          "timerMinutes": 40
+        }
+      ]
+    },
+    {
+      "section": "Bake",
+      "steps": [
+        {
+          "text": "Heat the oven to 350°F. Bake 18–22 minutes, checking at 18.",
+          "donenessCue": "Tops lightly golden, centers set but still soft.",
+          "timerMinutes": 18
+        }
+      ]
+    },
+    {
+      "section": "Glaze",
+      "steps": [
+        {
+          "text": "While the buns bake, gently warm the 3 tablespoons honey, 1 tablespoon orange juice, 1 teaspoon orange zest, ½ teaspoon vanilla, and pinch of salt over low heat for 1–2 minutes, without boiling. Remove from heat and whisk in the 1 tablespoon butter, if using.",
+          "timerMinutes": 2
+        },
+        {
+          "text": "Cool the buns about 10 minutes, then drizzle with the warm glaze.",
+          "timerMinutes": 10
+        }
+      ]
+    }
+  ],
+  "ifYouFeelLikeIt": [
+    "Skip the butter in the glaze for a lighter, more citrus-forward finish."
+  ],
+  "storage": "Room temperature in an airtight container up to 2 days, or fridge up to 5 days. Freeze unglazed up to 2 months — thaw and glaze fresh. Reheat briefly in a low oven or microwave.",
+  "tags": [
+    "buns",
+    "sweet-potato",
+    "yeasted"
+  ],
+  "story": ""
+}

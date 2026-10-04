@@ -1,0 +1,157 @@
+{
+  "id": "red-snapper-pasta",
+  "title": "Red Snapper Pasta with Non-Dairy Tomato Sauce",
+  "category": "Entrees",
+  "status": "draft",
+  "servings": "4",
+  "totalTime": "~45 minutes",
+  "ingredientGroups": [
+    {
+      "section": "Sauce",
+      "items": [
+        {
+          "id": "vine-ripe-tomatoes-diced",
+          "text": "2.76 lb vine-ripe tomatoes, diced"
+        },
+        {
+          "id": "yellow-onion-diced",
+          "text": "1 yellow onion, diced"
+        },
+        {
+          "id": "garlic-cloves-minced",
+          "text": "4 garlic cloves, minced"
+        },
+        {
+          "id": "olive-oil",
+          "text": "4 tbsp olive oil"
+        },
+        {
+          "id": "red-pepper-flakes",
+          "text": "½ tsp red pepper flakes"
+        },
+        {
+          "id": "pinot-grigio",
+          "text": "½ cup Pinot Grigio"
+        },
+        {
+          "id": "chicken-broth",
+          "text": "1 cup chicken broth"
+        },
+        {
+          "id": "salt",
+          "text": "1 tsp salt"
+        },
+        {
+          "id": "black-pepper",
+          "text": "½ tsp black pepper"
+        },
+        {
+          "id": "lemon-zested-and-juiced",
+          "text": "1 lemon, zested and juiced"
+        }
+      ]
+    },
+    {
+      "section": "Fish",
+      "items": [
+        {
+          "id": "red-snapper-fillets",
+          "text": "1 lb red snapper fillets"
+        },
+        {
+          "id": "salt-2",
+          "text": "¼ tsp salt"
+        },
+        {
+          "id": "olive-oil-2",
+          "text": "1 tbsp olive oil"
+        }
+      ]
+    },
+    {
+      "section": "Pasta & Finish",
+      "items": [
+        {
+          "id": "linguine-or-spaghetti",
+          "text": "12 oz linguine or spaghetti"
+        },
+        {
+          "id": "fresh-parsley-chopped",
+          "text": "3 tbsp fresh parsley, chopped"
+        }
+      ]
+    }
+  ],
+  "instructionGroups": [
+    {
+      "section": "Prep",
+      "steps": [
+        {
+          "text": "Core and dice the 2.76 lb tomatoes. Skins on is fine — they soften into the sauce."
+        },
+        {
+          "text": "Bring a large pot of salted water to a boil. Don’t add the pasta yet."
+        }
+      ]
+    },
+    {
+      "section": "Sauce",
+      "steps": [
+        {
+          "text": "In a wide pan, heat the 4 tbsp olive oil over medium. Add the onion and cook about 5 minutes, stirring occasionally.",
+          "donenessCue": "Soft and translucent.",
+          "timerMinutes": 5
+        },
+        {
+          "text": "Add the 4 minced garlic cloves and ½ tsp red pepper flakes. Stir constantly, about 45 seconds — garlic burns fast."
+        },
+        {
+          "text": "Add the diced tomatoes. Stir, then pour in the ½ cup Pinot Grigio to deglaze."
+        },
+        {
+          "text": "Add the 1 cup chicken broth, 1 tsp salt, and ½ tsp pepper. Simmer uncovered about 20 minutes, breaking up tomatoes as they soften.",
+          "donenessCue": "Tomatoes broken down into a chunky sauce, no raw firmness left.",
+          "timerMinutes": 20
+        }
+      ]
+    },
+    {
+      "section": "Pasta & Fish",
+      "steps": [
+        {
+          "text": "About 10 minutes into the simmer, add the 12 oz pasta to the boiling water. Cook to al dente. Reserve ½ cup pasta water, then drain."
+        },
+        {
+          "text": "Pat the 1 lb snapper dry and season with the ¼ tsp salt. Sear in the 1 tbsp olive oil in a separate pan, skin-side down first, about 7 minutes total.",
+          "donenessCue": "Flakes easily, opaque all the way through.",
+          "timerMinutes": 7
+        }
+      ]
+    },
+    {
+      "section": "Finish",
+      "steps": [
+        {
+          "text": "Stir the lemon zest and juice into the sauce. Taste and adjust salt."
+        },
+        {
+          "text": "Add the drained pasta to the sauce. Toss, loosening with reserved pasta water as needed."
+        },
+        {
+          "text": "Top the pasta with the snapper and scatter the 3 tbsp parsley over everything."
+        }
+      ]
+    }
+  ],
+  "ifYouFeelLikeIt": [
+    "More body without dairy: stir a spoonful of tomato paste in with the tomatoes.",
+    "Swap the chicken broth for fish or vegetable stock, and add ¼ cup torn basil."
+  ],
+  "storage": "Sauce (without fish): fridge 3–4 days, or freeze up to 3 months. Reheat gently with a splash of water or stock.",
+  "tags": [
+    "pasta",
+    "fish",
+    "dairy-free"
+  ],
+  "story": ""
+}

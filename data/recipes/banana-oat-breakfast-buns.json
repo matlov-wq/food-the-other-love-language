@@ -1,0 +1,319 @@
+{
+  "id": "banana-oat-breakfast-buns",
+  "title": "Banana-Oat Breakfast Buns",
+  "category": "Desserts",
+  "status": "draft",
+  "servings": "12 buns (standard muffin tin)",
+  "totalTime": "~3 hours (includes two rises)",
+  "ingredientGroups": [
+    {
+      "section": "Yeast",
+      "items": [
+        {
+          "id": "soy-milk",
+          "text": "¼ cup soy milk"
+        },
+        {
+          "id": "honey",
+          "text": "2 tablespoons honey"
+        },
+        {
+          "id": "active-dry-yeast",
+          "text": "2¼ teaspoons active dry yeast"
+        }
+      ]
+    },
+    {
+      "section": "Dough",
+      "items": [
+        {
+          "id": "ripe-bananas-mashed-about-2-cups-use-the",
+          "text": "4 ripe bananas, mashed (about 2 cups) — use the fresher batch, not the very old ones"
+        },
+        {
+          "id": "large-eggs",
+          "text": "2 large eggs"
+        },
+        {
+          "id": "high-protein-vanilla-soy-yogurt-one-5-3-",
+          "text": "½ cup high-protein vanilla soy yogurt (one 5.3 oz container, use the whole thing)"
+        },
+        {
+          "id": "grapeseed-oil",
+          "text": "¼ cup grapeseed oil"
+        },
+        {
+          "id": "vanilla-extract",
+          "text": "2 tablespoons vanilla extract"
+        },
+        {
+          "id": "zest-of-1-orange",
+          "text": "Zest of 1 orange"
+        },
+        {
+          "id": "all-purpose-flour",
+          "text": "2 cups all-purpose flour"
+        },
+        {
+          "id": "whole-wheat-flour",
+          "text": "1 cup whole-wheat flour"
+        },
+        {
+          "id": "oat-flour",
+          "text": "½ cup oat flour"
+        },
+        {
+          "id": "ground-cinnamon",
+          "text": "½ teaspoon ground cinnamon"
+        },
+        {
+          "id": "ground-nutmeg",
+          "text": "¼ teaspoon ground nutmeg"
+        },
+        {
+          "id": "sea-salt",
+          "text": "1 teaspoon sea salt"
+        }
+      ]
+    },
+    {
+      "section": "Almond-Orange Filling",
+      "items": [
+        {
+          "id": "almond-flour",
+          "text": "1 cup almond flour"
+        },
+        {
+          "id": "honey-2",
+          "text": "2 tablespoons honey"
+        },
+        {
+          "id": "grapeseed-oil-or-softened-butter",
+          "text": "2 tablespoons grapeseed oil or softened butter"
+        },
+        {
+          "id": "vanilla-extract-2",
+          "text": "1 teaspoon vanilla extract"
+        },
+        {
+          "id": "ground-cinnamon-2",
+          "text": "1 teaspoon ground cinnamon"
+        },
+        {
+          "id": "zest-of-orange",
+          "text": "Zest of ½ orange"
+        },
+        {
+          "id": "sea-salt-2",
+          "text": "¼ teaspoon sea salt"
+        },
+        {
+          "id": "soy-milk-as-needed",
+          "text": "2–3 tablespoons soy milk, as needed"
+        }
+      ]
+    },
+    {
+      "section": "Bananas Foster Swirl",
+      "items": [
+        {
+          "id": "old-very-ripe-bananas-diced",
+          "text": "2 old (very ripe) bananas, diced"
+        },
+        {
+          "id": "butter",
+          "text": "2 tablespoons butter"
+        },
+        {
+          "id": "honey-3",
+          "text": "2 tablespoons honey"
+        },
+        {
+          "id": "don-q-gold-rum",
+          "text": "2 tablespoons Don Q Gold rum"
+        },
+        {
+          "id": "pinch-of-sea-salt",
+          "text": "Pinch of sea salt"
+        }
+      ]
+    },
+    {
+      "section": "Optional",
+      "items": [
+        {
+          "id": "chopped-pecans",
+          "text": "½ cup chopped pecans"
+        }
+      ]
+    },
+    {
+      "section": "Optional Honey-Orange Glaze",
+      "items": [
+        {
+          "id": "honey-4",
+          "text": "3 tablespoons honey"
+        },
+        {
+          "id": "fresh-orange-juice",
+          "text": "1 tablespoon fresh orange juice"
+        },
+        {
+          "id": "orange-zest",
+          "text": "1 teaspoon orange zest"
+        },
+        {
+          "id": "vanilla-extract-3",
+          "text": "½ teaspoon vanilla extract"
+        },
+        {
+          "id": "unsalted-butter-optional",
+          "text": "1 tablespoon unsalted butter, optional"
+        },
+        {
+          "id": "pinch-of-sea-salt-2",
+          "text": "Pinch of sea salt"
+        }
+      ]
+    }
+  ],
+  "instructionGroups": [
+    {
+      "section": "Bloom the Yeast",
+      "steps": [
+        {
+          "text": "Warm ¼ cup soy milk to 105–110°F (warm to the touch, not hot). Stir in 2 tablespoons honey, then sprinkle in 2¼ teaspoons active dry yeast. Let stand 5–10 minutes.",
+          "donenessCue": "Creamy and visibly foamy — no need for a huge head of bubbles, just a foamy surface.",
+          "timerMinutes": 10
+        }
+      ]
+    },
+    {
+      "section": "Make the Dough",
+      "steps": [
+        {
+          "text": "Mash 4 ripe bananas until mostly smooth, leaving a few small pieces. Whisk in 2 eggs, the soy yogurt, ¼ cup grapeseed oil, 2 tablespoons vanilla, and the orange zest."
+        },
+        {
+          "text": "In a separate bowl, whisk together 2 cups all-purpose flour, 1 cup whole-wheat flour, ½ cup oat flour, ½ teaspoon cinnamon, ¼ teaspoon nutmeg, and 1 teaspoon sea salt."
+        },
+        {
+          "text": "Add the bloomed yeast mixture and the banana mixture to the dry ingredients. Stir until a shaggy dough forms."
+        },
+        {
+          "text": "Turn onto a lightly floured surface and knead 6–8 minutes, adding flour only a tablespoon at a time if truly necessary.",
+          "donenessCue": "Soft, elastic, and slightly tacky — not stiff. Sticky is fine.",
+          "timerMinutes": 8
+        }
+      ]
+    },
+    {
+      "section": "First Rise",
+      "steps": [
+        {
+          "text": "Place in a lightly oiled bowl, cover, and let rise somewhere warm for 60–90 minutes.",
+          "donenessCue": "Noticeably puffy, roughly doubled.",
+          "timerMinutes": 75
+        }
+      ]
+    },
+    {
+      "section": "Make the Filling",
+      "steps": [
+        {
+          "text": "While the dough rises, mix 1 cup almond flour, 2 tablespoons honey, 2 tablespoons grapeseed oil or softened butter, 1 teaspoon vanilla, 1 teaspoon cinnamon, the ½-orange zest, and ¼ teaspoon salt. Add soy milk 1 tablespoon at a time (2–3 tablespoons total) until it’s a soft, spreadable paste — not runny."
+        }
+      ]
+    },
+    {
+      "section": "Make the Bananas Foster Swirl",
+      "steps": [
+        {
+          "text": "Melt 2 tablespoons butter in a skillet over medium heat. Add the 2 diced old bananas and cook 2–3 minutes.",
+          "donenessCue": "Bananas begin to soften and color.",
+          "timerMinutes": 3
+        },
+        {
+          "text": "Add 2 tablespoons honey and cook 1–2 minutes more.",
+          "donenessCue": "Bubbling and caramelized.",
+          "timerMinutes": 2
+        },
+        {
+          "text": "Remove from heat. Add 2 tablespoons Don Q Gold rum and a pinch of salt, then either flambé carefully or simmer 1–2 minutes to cook off the raw alcohol edge.",
+          "donenessCue": "Syrupy, deep golden-brown, and fragrant.",
+          "timerMinutes": 2
+        },
+        {
+          "text": "Let cool to room temperature before using — do not add it to the dough or filling while hot."
+        }
+      ]
+    },
+    {
+      "section": "Shape",
+      "steps": [
+        {
+          "text": "Turn the risen dough onto a lightly floured surface and roll into roughly a 12×18-inch rectangle."
+        },
+        {
+          "text": "Spread the almond-orange filling evenly over the dough, leaving about ½ inch bare around the edges. Spoon the cooled Bananas Foster mixture evenly over the top. If using, scatter ½ cup chopped pecans over everything."
+        },
+        {
+          "text": "Starting from the long side, roll into a fairly tight log and pinch the seam closed."
+        },
+        {
+          "text": "Cut into 12 equal pieces. Place each cut-side up in a lined standard 12-cup muffin tin, filling each well only about ⅔ full for now."
+        }
+      ]
+    },
+    {
+      "section": "Second Rise",
+      "steps": [
+        {
+          "text": "Cover loosely and let rise 30–45 minutes, watching the dough rather than the clock.",
+          "donenessCue": "Noticeably puffy, filling most of the cup.",
+          "timerMinutes": 40
+        }
+      ]
+    },
+    {
+      "section": "Bake",
+      "steps": [
+        {
+          "text": "Heat the oven to 350°F. Bake, checking starting at 18 minutes.",
+          "donenessCue": "Tops are golden and the centers feel set, not doughy.",
+          "timerMinutes": 18
+        },
+        {
+          "text": "Let the buns rest in the pan for 10 minutes, then transfer to a rack.",
+          "timerMinutes": 10
+        }
+      ]
+    },
+    {
+      "section": "Optional Glaze",
+      "steps": [
+        {
+          "text": "Combine 3 tablespoons honey, 1 tablespoon orange juice, 1 teaspoon orange zest, ½ teaspoon vanilla, and a pinch of salt in a small saucepan. Warm gently over low heat 1–2 minutes — don’t boil.",
+          "donenessCue": "Loose and fragrant.",
+          "timerMinutes": 2
+        },
+        {
+          "text": "Whisk in 1 tablespoon butter, if using. Drizzle over the buns once they’ve cooled about 10 minutes."
+        }
+      ]
+    }
+  ],
+  "ifYouFeelLikeIt": [
+    "Scatter ½ cup chopped pecans over the filling before rolling.",
+    "Finish with the honey-orange glaze.",
+    "Texture target: soft, pull-apart bread, not cake or dense. Banana up front, orange and cinnamon in the background, a caramelized rum-banana pocket and nutty spiral running through the center."
+  ],
+  "storage": "Counter: airtight container, up to 2 days. Refrigerator: up to 5 days. Freezer: wrap individually, up to 3 months. Reheat from frozen in the microwave for 25–35 seconds, or in a 300°F oven for about 10 minutes.",
+  "tags": [
+    "buns",
+    "banana",
+    "yeasted",
+    "breakfast"
+  ],
+  "story": ""
+}

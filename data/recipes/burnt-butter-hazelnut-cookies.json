@@ -12,29 +12,68 @@
     {
       "section": "Dry",
       "items": [
-        { "id": "hazelnut-meal",   "text": "1 cup hazelnut meal" },
-        { "id": "flour",           "text": "½ cup all-purpose flour" },
-        { "id": "baking-powder",   "text": "½ tsp baking powder" },
-        { "id": "salt",            "text": "¼ tsp fine salt" },
-        { "id": "cardamom-dry",    "text": "½ tsp ground cardamom" }
+        {
+          "id": "hazelnut-meal",
+          "text": "1 cup hazelnut meal"
+        },
+        {
+          "id": "all-purpose-flour",
+          "text": "½ cup all-purpose flour"
+        },
+        {
+          "id": "baking-powder",
+          "text": "½ tsp baking powder"
+        },
+        {
+          "id": "fine-salt",
+          "text": "¼ tsp fine salt"
+        },
+        {
+          "id": "ground-cardamom",
+          "text": "½ tsp ground cardamom"
+        }
       ]
     },
     {
       "section": "Wet",
       "items": [
-        { "id": "butter",          "text": "½ cup unsalted butter" },
-        { "id": "orange-zest",     "text": "1 tsp fresh orange zest" },
-        { "id": "cardamom-bloom",  "text": "½ tsp ground cardamom (bloomed in butter)" },
-        { "id": "dark-brown-sugar","text": "½ cup dark brown sugar" },
-        { "id": "white-sugar",     "text": "¼ cup white sugar" },
-        { "id": "egg",             "text": "1 large egg, room temperature" },
-        { "id": "vanilla",         "text": "1 tsp vanilla extract" }
+        {
+          "id": "unsalted-butter",
+          "text": "½ cup unsalted butter"
+        },
+        {
+          "id": "zest-of-one-orange",
+          "text": "Zest of one orange"
+        },
+        {
+          "id": "ground-cardamom-bloomed-in-butter",
+          "text": "½ tsp ground cardamom (bloomed in butter)"
+        },
+        {
+          "id": "dark-brown-sugar",
+          "text": "½ cup dark brown sugar"
+        },
+        {
+          "id": "white-sugar",
+          "text": "¼ cup white sugar"
+        },
+        {
+          "id": "large-egg-room-temperature",
+          "text": "1 large egg, room temperature"
+        },
+        {
+          "id": "vanilla-extract",
+          "text": "1 tsp vanilla extract"
+        }
       ]
     },
     {
       "section": "Optional",
       "items": [
-        { "id": "flaky-salt",      "text": "Flaky sea salt, for finishing" }
+        {
+          "id": "flaky-sea-salt-for-finishing",
+          "text": "Flaky sea salt, for finishing"
+        }
       ]
     }
   ],
@@ -47,10 +86,13 @@
           "donenessCue": "Butter turns deep amber and smells deeply nutty — go a shade darker than feels safe."
         },
         {
-          "text": "Remove from heat immediately. Stir in 1 tsp fresh orange zest and ½ tsp ground cardamom. Blooming the cardamom in the warm fat draws out its aromatic oils for a deeper, rounder flavor — the other ½ tsp goes in with the dry ingredients to keep its brighter, more fragrant notes."
+          "text": "Remove from heat immediately. Stir in half of the fresh orange zest and ½ tsp ground cardamom. Blooming the cardamom in the warm fat draws out its aromatic oils for a deeper, rounder flavor; the other ½ tsp goes in with the dry ingredients to keep its brighter, more fragrant notes."
         },
         {
           "text": "Set aside and let the brown butter cool completely to room temperature before continuing."
+        },
+        {
+          "text": "Mix in the remaining orange zest."
         }
       ]
     },
@@ -110,7 +152,7 @@
       "section": "Finish",
       "steps": [
         {
-          "text": "Cool on the baking sheet for 5–7 minutes before transferring to a wire rack. The flavor noticeably deepens after 12–24 hours.",
+          "text": "Cool on the baking sheet for 5–7 minutes before transferring to a wire rack.",
           "timerMinutes": 6
         }
       ]
@@ -122,5 +164,11 @@
     "Fold in ¼ cup chopped toasted hazelnuts before chilling the dough for a little extra texture."
   ],
   "storage": "Store loosely covered at room temperature. The flavor noticeably deepens after 12–24 hours.",
-  "tags": ["anchor", "cardamom", "brown-butter", "hazelnut", "cookies"]
+  "tags": [
+    "anchor",
+    "cardamom",
+    "brown-butter",
+    "hazelnut",
+    "cookies"
+  ]
 }

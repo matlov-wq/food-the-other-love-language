@@ -1,0 +1,144 @@
+{
+  "id": "leek-potato-soup",
+  "title": "Leek & Potato Soup with Crispy Purple Potato–Leek Topping",
+  "category": "Starters",
+  "status": "draft",
+  "servings": "4",
+  "totalTime": "About 50 minutes",
+  "ingredientGroups": [
+    {
+      "section": "Soup",
+      "items": [
+        {
+          "id": "large-leeks-whites-for-soup-dark-green-t",
+          "text": "3 large leeks (whites for soup, dark green tops for topping)"
+        },
+        {
+          "id": "little-trios-potatoes-1-pack-red-yellow-",
+          "text": "1.5 lb Little Trios potatoes (1 pack — red, yellow, and purple)"
+        },
+        {
+          "id": "garlic-cloves",
+          "text": "3 garlic cloves"
+        },
+        {
+          "id": "butter",
+          "text": "3 tbsp butter"
+        },
+        {
+          "id": "salt-plus-more-to-taste",
+          "text": "1 tsp salt, plus more to taste"
+        },
+        {
+          "id": "vegetable-broth",
+          "text": "3½ cups vegetable broth"
+        },
+        {
+          "id": "bay-leaf",
+          "text": "1 bay leaf"
+        },
+        {
+          "id": "extra-creamy-oat-milk",
+          "text": "½ cup extra creamy oat milk"
+        },
+        {
+          "id": "black-pepper",
+          "text": "½ tsp black pepper"
+        }
+      ]
+    },
+    {
+      "section": "Topping",
+      "items": [
+        {
+          "id": "oil-for-roasting",
+          "text": "1 tbsp oil, for roasting"
+        },
+        {
+          "id": "neutral-oil-vegetable-or-canola-for-fryi",
+          "text": "½ cup neutral oil (vegetable or canola), for frying"
+        }
+      ]
+    }
+  ],
+  "instructionGroups": [
+    {
+      "section": "Prep",
+      "steps": [
+        {
+          "text": "Preheat the oven to 425°F. Sort the 1.5 lb potatoes: purple for the topping, red and yellow for the soup. Rinse all of them."
+        },
+        {
+          "text": "Cut the root ends off the 3 leeks. Cut off the dark green tops and set them aside. Slice the white and light green parts in half lengthwise, then into thin half-moons."
+        },
+        {
+          "text": "Slice a handful of dark green tops into very thin, matchstick-width strips. Put the strips and the half-moons in separate bowls of cold water and swish. Let sit 2 minutes so grit sinks, then scoop out by hand. Pat the strips completely dry — wet leeks splatter in hot oil."
+        }
+      ]
+    },
+    {
+      "section": "Roast the Purple Potatoes",
+      "steps": [
+        {
+          "text": "Cut the purple potatoes into ½-inch cubes. Toss with the 1 tbsp oil and a pinch of salt. Spread in one layer on a baking sheet. Roast 20–25 minutes, flipping once halfway.",
+          "donenessCue": "Edges browned and crisp, a fork slides in easily.",
+          "timerMinutes": 22
+        }
+      ]
+    },
+    {
+      "section": "Make the Soup",
+      "steps": [
+        {
+          "text": "While those roast, halve the soup potatoes (quarter bigger ones). Leave the skins on. Peel and smash the 3 garlic cloves."
+        },
+        {
+          "text": "Melt the 3 tbsp butter in a large pot over medium heat. Add the leek half-moons, garlic, and 1 tsp salt. Stir occasionally, about 10 minutes.",
+          "donenessCue": "Soft, floppy, shiny — not browned. Brown edges? Turn the heat down.",
+          "timerMinutes": 10
+        },
+        {
+          "text": "Add the soup potatoes, 3½ cups broth, and bay leaf. Bring to a boil over high heat, then lower to a gentle simmer and cover. Start checking at 15 minutes.",
+          "donenessCue": "A fork slides into the potatoes with no resistance.",
+          "timerMinutes": 15
+        }
+      ]
+    },
+    {
+      "section": "Fry the Leek Tops",
+      "steps": [
+        {
+          "text": "While the soup simmers, heat the ½ cup neutral oil in a small pan over medium. Add the dried leek strips and stir often, 2–4 minutes. Drain on a paper towel and salt right away.",
+          "donenessCue": "Golden at the edges, mostly stopped bubbling. Pull before they brown or they’ll taste bitter.",
+          "timerMinutes": 3
+        }
+      ]
+    },
+    {
+      "section": "Finish",
+      "steps": [
+        {
+          "text": "Turn off the heat and remove the bay leaf. Blend with an immersion blender until smooth. Regular blender? Fill it only halfway, hold the lid down with a towel, and blend in batches."
+        },
+        {
+          "text": "With the heat off or on low, stir in the ½ cup oat milk and ½ tsp pepper. Don’t let it boil after this. Taste and add salt a pinch at a time until it tastes rich instead of flat. If the oat milk made it a little sweet, add a small squeeze of lemon."
+        },
+        {
+          "text": "Ladle into bowls. Right before serving, spoon the purple potatoes and crispy leeks into the center — last-minute keeps them crunchy and keeps the purple from bleeding into the soup."
+        }
+      ]
+    }
+  ],
+  "ifYouFeelLikeIt": [
+    "If most of your potatoes are purple: put the extra purples in the soup and embrace the color. Stir in 1–2 tsp lemon juice after the oat milk — acid pushes the pigment pinker instead of gray. Use mostly white leek parts in the soup; the green muddies the color.",
+    "Save leftover dark green leek tops in the freezer for making broth."
+  ],
+  "storage": "Soup: cool completely, fridge up to 4 days. Reheat over medium-low, thinning with broth. To freeze (up to 3 months), freeze before adding the oat milk; stir it in after reheating. Crispy leeks: room temperature, airtight, paper-towel lined, 1–2 days — don’t refrigerate. Purple potatoes: fridge separately up to 4 days; re-crisp at 400°F (oven or air fryer) 5–8 minutes. Always store toppings apart from the soup. Too thick? Splash of broth or water. Too thin? Simmer uncovered a few minutes.",
+  "tags": [
+    "soup",
+    "dairy-free",
+    "leek",
+    "potato"
+  ],
+  "story": ""
+}

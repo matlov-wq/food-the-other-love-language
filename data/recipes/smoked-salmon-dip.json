@@ -1,0 +1,104 @@
+{
+  "id": "smoked-salmon-dip",
+  "title": "Smoked Salmon Dip",
+  "category": "Starters",
+  "status": "draft",
+  "servings": "6",
+  "totalTime": "~1 hour (includes softening and chill)",
+  "ingredientGroups": [
+    {
+      "section": "Base",
+      "items": [
+        {
+          "id": "block-cream-cheese-softened-to-room-temp",
+          "text": "8 oz block cream cheese, softened to room temperature"
+        },
+        {
+          "id": "buttermilk",
+          "text": "3 tbsp buttermilk"
+        },
+        {
+          "id": "fresh-lemon-juice-about-half-a-lemon",
+          "text": "1½ tbsp fresh lemon juice (about half a lemon)"
+        },
+        {
+          "id": "garlic-clove-minced-or-tsp-garlic-powder",
+          "text": "1 garlic clove, minced (or ¼ tsp garlic powder)"
+        }
+      ]
+    },
+    {
+      "section": "Fold-ins",
+      "items": [
+        {
+          "id": "smoked-salmon-fillet-fully-cooked",
+          "text": "4 oz smoked salmon fillet, fully cooked"
+        },
+        {
+          "id": "fresh-chives-finely-chopped",
+          "text": "2 tbsp fresh chives, finely chopped"
+        },
+        {
+          "id": "herb-of-your-choice-see-if-you-feel-like",
+          "text": "Herb of your choice — see If You Feel Like It"
+        },
+        {
+          "id": "black-pepper",
+          "text": "¼ tsp black pepper"
+        },
+        {
+          "id": "hot-sauce-like-tabasco-if-you-feel-like-",
+          "text": "½ tsp hot sauce, like Tabasco (if you feel like it)"
+        }
+      ]
+    }
+  ],
+  "instructionGroups": [
+    {
+      "section": "Prep",
+      "steps": [
+        {
+          "text": "Let the 8 oz cream cheese sit out 20–30 minutes.",
+          "donenessCue": "Presses easily with a finger, no cold lumps.",
+          "timerMinutes": 25
+        },
+        {
+          "text": "Flake the 4 oz salmon with a fork, removing any skin. Aim for mostly fine crumbles with a few larger chunks."
+        }
+      ]
+    },
+    {
+      "section": "Mix",
+      "steps": [
+        {
+          "text": "Beat the softened cream cheese with the 3 tbsp buttermilk until smooth. Add the 1½ tbsp lemon juice and garlic. Stir until combined.",
+          "donenessCue": "Pale and fluffy."
+        },
+        {
+          "text": "Add the salmon, 2 tbsp chives, your chosen herb, and ¼ tsp pepper. Fold gently — distributed, not pulverized. Taste, and add the ½ tsp hot sauce if you want heat."
+        }
+      ]
+    },
+    {
+      "section": "Chill",
+      "steps": [
+        {
+          "text": "Cover and refrigerate at least 30 minutes. Serve cold, topped with extra chives.",
+          "timerMinutes": 30
+        }
+      ]
+    }
+  ],
+  "ifYouFeelLikeIt": [
+    "Herb options (instead of dill): double the chives, flat-leaf parsley, tarragon (about half as much — it’s stronger), ¼ tsp smoked paprika, or 1 tsp horseradish for a bagel-and-lox vibe.",
+    "Smoother: hand-mix the cream cheese before folding. Chunkier: fold by hand and don’t overwork it.",
+    "Serve with crackers, bagel chips, cucumber rounds, or bell pepper strips."
+  ],
+  "storage": "Covered in the fridge up to 3 days. Stir if it separates slightly.",
+  "tags": [
+    "dip",
+    "salmon",
+    "party"
+  ],
+  "story": ""
+}

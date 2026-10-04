@@ -1,0 +1,202 @@
+{
+  "id": "soft-multigrain-seed-bread",
+  "title": "Soft Multigrain Seed Bread",
+  "category": "Sides",
+  "status": "draft",
+  "servings": "1 loaf, about 12 slices",
+  "totalTime": "Overnight soak + ~4½ hours",
+  "ingredientGroups": [
+    {
+      "section": "Overnight Soaker",
+      "items": [
+        {
+          "id": "cracked-wheat",
+          "text": "¼ cup cracked wheat"
+        },
+        {
+          "id": "coarse-bulgur",
+          "text": "3 tbsp coarse bulgur"
+        },
+        {
+          "id": "hulled-millet",
+          "text": "3 tbsp hulled millet"
+        },
+        {
+          "id": "extra-thick-rolled-oats",
+          "text": "½ cup extra thick rolled oats"
+        },
+        {
+          "id": "ground-flax",
+          "text": "2 tbsp ground flax"
+        },
+        {
+          "id": "whole-black-chia-seeds",
+          "text": "1 tbsp whole black chia seeds"
+        },
+        {
+          "id": "soy-or-oat-milk-heated-hot-not-boiling",
+          "text": "1½ cups soy or oat milk, heated hot (not boiling)"
+        }
+      ]
+    },
+    {
+      "section": "Yeast Bloom",
+      "items": [
+        {
+          "id": "active-dry-yeast",
+          "text": "2¼ tsp active dry yeast"
+        },
+        {
+          "id": "soy-or-oat-milk-warmed-to-110-f",
+          "text": "¼ cup soy or oat milk, warmed to 110°F"
+        },
+        {
+          "id": "orange-blossom-honey",
+          "text": "2 tbsp orange blossom honey"
+        }
+      ]
+    },
+    {
+      "section": "Wet",
+      "items": [
+        {
+          "id": "large-egg",
+          "text": "1 large egg"
+        },
+        {
+          "id": "walnut-oil",
+          "text": "2 tbsp walnut oil"
+        }
+      ]
+    },
+    {
+      "section": "Flours & Salt",
+      "items": [
+        {
+          "id": "all-purpose-flour",
+          "text": "2 cups all-purpose flour"
+        },
+        {
+          "id": "whole-wheat-flour",
+          "text": "1¼ cups whole wheat flour"
+        },
+        {
+          "id": "oat-flour",
+          "text": "½ cup oat flour"
+        },
+        {
+          "id": "pink-himalayan-salt",
+          "text": "1½ tsp pink Himalayan salt"
+        }
+      ]
+    },
+    {
+      "section": "Crunchy Seeds",
+      "items": [
+        {
+          "id": "sunflower-seeds",
+          "text": "2 tbsp sunflower seeds"
+        },
+        {
+          "id": "pumpkin-seeds",
+          "text": "2 tbsp pumpkin seeds"
+        },
+        {
+          "id": "natural-sesame-seeds",
+          "text": "1 tbsp natural sesame seeds"
+        },
+        {
+          "id": "black-sesame-seeds",
+          "text": "1 tbsp black sesame seeds"
+        }
+      ]
+    },
+    {
+      "section": "Topping",
+      "items": [
+        {
+          "id": "reserved-oats-and-seeds",
+          "text": "2 tbsp reserved oats and seeds"
+        }
+      ]
+    }
+  ],
+  "instructionGroups": [
+    {
+      "section": "The Night Before",
+      "steps": [
+        {
+          "text": "Combine the ¼ cup cracked wheat, 3 tbsp bulgur, 3 tbsp millet, ½ cup oats, 2 tbsp ground flax, and 1 tbsp chia in a bowl. Pour the 1½ cups hot milk over it. Stir, cover, and refrigerate 8–12 hours. This softens the grains and lets the flax and chia gel fully, so they don’t steal moisture from the dough later.",
+          "timerMinutes": 480
+        }
+      ]
+    },
+    {
+      "section": "Make the Dough",
+      "steps": [
+        {
+          "text": "Let the soaker sit out 20 minutes while you bloom the yeast.",
+          "donenessCue": "Looks like thick, cohesive porridge.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "In a small bowl, combine the 2¼ tsp yeast, ¼ cup warm milk, and 2 tbsp honey. Let stand 8 minutes.",
+          "donenessCue": "Foamy on top.",
+          "timerMinutes": 8
+        },
+        {
+          "text": "Stir the yeast mixture, 1 egg, and 2 tbsp walnut oil into the soaker."
+        },
+        {
+          "text": "Add the 2 cups all-purpose flour, 1¼ cups whole wheat flour, ½ cup oat flour, and 1½ tsp salt. Stir until a shaggy dough forms."
+        },
+        {
+          "text": "Add the 2 tbsp sunflower, 2 tbsp pumpkin, 1 tbsp natural sesame, and 1 tbsp black sesame seeds. Knead 8–10 minutes by hand or mixer.",
+          "donenessCue": "Smooth, elastic, slightly tacky (not sticky). Windowpane test — a small piece stretches thin and translucent without tearing.",
+          "timerMinutes": 10
+        }
+      ]
+    },
+    {
+      "section": "Rise",
+      "steps": [
+        {
+          "text": "Shape into a ball, place in an oiled bowl, cover, and set somewhere warm. About 90 minutes.",
+          "donenessCue": "Roughly doubled.",
+          "timerMinutes": 90
+        },
+        {
+          "text": "Punch down, shape into a loaf, and place in a greased 9×5-inch pan. Brush the top with water or milk and sprinkle with the 2 tbsp reserved oats and seeds. Cover loosely. About 45 minutes.",
+          "donenessCue": "Dough crowns about 1 inch above the pan rim.",
+          "timerMinutes": 45
+        }
+      ]
+    },
+    {
+      "section": "Bake",
+      "steps": [
+        {
+          "text": "Preheat the oven to 350°F. Bake 35–40 minutes.",
+          "donenessCue": "Deep golden brown, sounds hollow when tapped, internal temp about 190°F.",
+          "timerMinutes": 35
+        },
+        {
+          "text": "Turn out onto a wire rack. Cool a full hour — cutting early makes even soft bread gummy.",
+          "timerMinutes": 60
+        }
+      ]
+    }
+  ],
+  "ifYouFeelLikeIt": [
+    "Swap up to ¼ cup of the oat flour for almond flour, hazelnut meal, buckwheat flour, or wheat bran. Don’t go further or the loaf gets denser.",
+    "If something’s off: dough too stiff → add warm milk 1 tbsp at a time. Dough too wet → add all-purpose flour 1 tbsp at a time."
+  ],
+  "storage": "Wrapped at room temperature 3–4 days. Sliced and frozen up to 3 months — toast straight from frozen.",
+  "tags": [
+    "bread",
+    "multigrain",
+    "seeds",
+    "yeasted"
+  ],
+  "story": ""
+}

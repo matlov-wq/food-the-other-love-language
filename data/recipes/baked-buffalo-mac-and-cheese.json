@@ -1,0 +1,141 @@
+{
+  "id": "baked-buffalo-mac-and-cheese",
+  "title": "Baked Buffalo Mac and Cheese",
+  "category": "Party Snacks",
+  "status": "draft",
+  "servings": "5",
+  "totalTime": "~1 hour",
+  "ingredientGroups": [
+    {
+      "section": "Pasta",
+      "items": [
+        {
+          "id": "elbow-macaroni",
+          "text": "16 oz elbow macaroni"
+        }
+      ]
+    },
+    {
+      "section": "Cheese Sauce",
+      "items": [
+        {
+          "id": "unsalted-butter",
+          "text": "4 tbsp unsalted butter"
+        },
+        {
+          "id": "all-purpose-flour",
+          "text": "4 tbsp all-purpose flour"
+        },
+        {
+          "id": "whole-milk",
+          "text": "2 cups whole milk"
+        },
+        {
+          "id": "heavy-cream",
+          "text": "1 cup heavy cream"
+        },
+        {
+          "id": "sharp-cheddar-shredded",
+          "text": "3 cups sharp cheddar, shredded"
+        },
+        {
+          "id": "monterey-jack-shredded",
+          "text": "1 cup Monterey Jack, shredded"
+        },
+        {
+          "id": "buffalo-sauce-like-frank-s-redhot",
+          "text": "¾ cup buffalo sauce (like Frank’s RedHot)"
+        },
+        {
+          "id": "garlic-powder",
+          "text": "1 tsp garlic powder"
+        },
+        {
+          "id": "salt",
+          "text": "½ tsp salt"
+        }
+      ]
+    },
+    {
+      "section": "Topping & Finish",
+      "items": [
+        {
+          "id": "panko-breadcrumbs",
+          "text": "½ cup panko breadcrumbs"
+        },
+        {
+          "id": "green-onions-sliced",
+          "text": "2 green onions, sliced"
+        },
+        {
+          "id": "blue-cheese-or-ranch-dressing-for-drizzl",
+          "text": "3 tbsp blue cheese or ranch dressing, for drizzling"
+        }
+      ]
+    }
+  ],
+  "instructionGroups": [
+    {
+      "section": "Pasta",
+      "steps": [
+        {
+          "text": "Preheat the oven to 375°F. Grease a 9×13-inch baking dish."
+        },
+        {
+          "text": "Bring a large pot of salted water to a boil. Cook the 16 oz macaroni 1–2 minutes less than the package says (about 8 minutes) — it finishes in the oven. Drain and set aside.",
+          "timerMinutes": 8
+        }
+      ]
+    },
+    {
+      "section": "Cheese Sauce",
+      "steps": [
+        {
+          "text": "In the same pot, melt the 4 tbsp butter over medium heat. Whisk in the 4 tbsp flour. Cook 1 minute, stirring constantly.",
+          "donenessCue": "Smells slightly nutty and turns light golden.",
+          "timerMinutes": 1
+        },
+        {
+          "text": "Slowly pour in the 2 cups milk and 1 cup cream, whisking constantly. Keep whisking 3–4 minutes.",
+          "donenessCue": "Starts to thicken, no lumps.",
+          "timerMinutes": 4
+        },
+        {
+          "text": "Reduce heat to low. Add the 3 cups cheddar and 1 cup Monterey Jack a handful at a time, stirring until smooth. Stir in the ¾ cup buffalo sauce, 1 tsp garlic powder, and ½ tsp salt."
+        },
+        {
+          "text": "Add the drained pasta to the sauce and stir until fully coated."
+        }
+      ]
+    },
+    {
+      "section": "Bake",
+      "steps": [
+        {
+          "text": "Pour into the baking dish, spread evenly, and sprinkle the ½ cup panko over the top."
+        },
+        {
+          "text": "Bake uncovered about 20 minutes.",
+          "donenessCue": "Top golden, bubbling at the edges.",
+          "timerMinutes": 20
+        },
+        {
+          "text": "Rest 5 minutes. Top with the sliced green onions and drizzle with the 3 tbsp blue cheese or ranch.",
+          "timerMinutes": 5
+        }
+      ]
+    }
+  ],
+  "ifYouFeelLikeIt": [
+    "Fold in 1½ cups cooked, shredded chicken when you combine the pasta and sauce.",
+    "Milder: cut the buffalo sauce to ½ cup and add more cheddar."
+  ],
+  "storage": "Make ahead: assemble through the panko step up to a day ahead, cover, and refrigerate. Add 10 minutes to the bake time if it goes in cold.",
+  "tags": [
+    "party",
+    "pasta",
+    "cheese",
+    "buffalo"
+  ],
+  "story": ""
+}

@@ -4,20 +4,14 @@ interface Props {
 
 export function IfYouFeelLikeIt({ items }: Props) {
   if (!items.length) return null
-
   return (
-    <div className="ifyfli-section">
-      <h3 className="font-serif text-base font-semibold mb-3" style={{ color: '#3D2817' }}>
-        If You Feel Like It
-      </h3>
-      <ul className="space-y-2">
+    <section className="print-plain flex-1 min-w-[min(100%,300px)] rounded-card bg-blush border border-blush-border p-7">
+      <h2 className="font-display text-2xl mb-3.5">If You Feel Like It</h2>
+      <ul className="list-disc pl-5 marker:text-fig flex flex-col gap-2.5 text-[17px] leading-relaxed">
         {items.map((item, i) => (
-          <li key={i} className="flex gap-2 text-[15px] leading-snug" style={{ color: '#6B4226' }}>
-            <span className="mt-1.5 flex-shrink-0" style={{ color: '#B8793A' }}>✦</span>
-            <span>{item}</span>
-          </li>
+          <li key={i}>{item}</li>
         ))}
       </ul>
-    </div>
+    </section>
   )
 }

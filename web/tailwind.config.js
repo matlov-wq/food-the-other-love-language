@@ -3,34 +3,26 @@ export default {
   content: ['./index.html', './src/**/*.{ts,tsx}'],
   theme: {
     extend: {
+      // Brand system: food-brief/Food Design Brief.md
       colors: {
-        // Palette derived from the burnt butter process
-        'burnt-butter':   '#B8793A',
-        'toasted-foam':   '#E8C888',
-        'hazelnut':       '#8B5A2B',
-        'milk-solids':    '#6B4226',
-        'deep-char':      '#3D2817',
-        'cultured-cream': '#FAF3E7',
-
-        // Keep 'butter' as an alias scale for Tailwind utilities that need shades
-        butter: {
-          50:  '#FAF3E7',  // cultured cream
-          100: '#F3E4C8',
-          200: '#E8C888',  // toasted foam
-          300: '#D4A96A',
-          400: '#C48F4A',
-          500: '#B8793A',  // burnt butter
-          600: '#9A6530',
-          700: '#8B5A2B',  // hazelnut
-          800: '#6B4226',  // milk solids
-          900: '#4E3020',
-          950: '#3D2817',  // deep char
-        },
+        paper:            '#FBF8F4', // page background
+        blush:            '#F2E7E6', // accent surfaces: cards, notes, ingredient panel
+        'blush-border':   '#DFC8CB', // hairlines, borders
+        aubergine:        '#2B1430', // text, footer, reverse backgrounds
+        'aubergine-soft': '#5C4A5F', // secondary text
+        fig:              '#8E3A5E', // recipe accent: links, buttons, step numbers
+        'fig-deep':       '#6E2747', // fig hover, quantities, tag text
+        pistachio:        '#A3B862', // the cookie; vlog accent fills
+        'pistachio-edge': '#94A856', // fork edge, pistachio hover
+        'pistachio-deep': '#56661F', // pistachio-colored text
       },
       fontFamily: {
-        display: ['"Fraunces"', 'Georgia', 'serif'],
-        serif:   ['"Lora"', 'Georgia', 'serif'],
-        sans:    ['"Inter"', 'system-ui', 'sans-serif'],
+        display: ['"Young Serif"', 'Georgia', 'serif'],
+        serif:   ['"Newsreader"', 'Georgia', 'serif'],
+        sans:    ['"Work Sans"', 'system-ui', 'sans-serif'],
+      },
+      borderRadius: {
+        card: '24px',
       },
     },
   },

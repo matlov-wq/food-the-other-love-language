@@ -12,36 +12,45 @@
     padding-top: env(safe-area-inset-top);
     padding-bottom: env(safe-area-inset-bottom);
   }
+
+  :focus-visible {
+    outline: 2px solid #8E3A5E;
+    outline-offset: 3px;
+  }
 }
 
 @layer components {
-  .doneness-cue {
-    @apply mt-2 pl-3 py-1.5 border-l-2 text-sm rounded-r;
-    border-color: #E8C888;
-    background-color: #FAF3E7;
-    color: #6B4226;
+  /* Work Sans 600, caps, 0.2em tracking, 12px */
+  .label {
+    @apply font-sans font-semibold uppercase text-xs;
+    letter-spacing: 0.2em;
   }
 
-  .ifyfli-section {
-    @apply mt-6 p-4 rounded-xl border;
-    background-color: #FAF3E7;
-    border-color: #E8C888;
+  /* Quantities and times: Work Sans, tabular figures */
+  .qty {
+    @apply font-sans font-semibold;
+    font-variant-numeric: tabular-nums;
   }
 
-  .section-label {
-    @apply text-xs font-semibold uppercase tracking-widest mb-3;
-    color: #8B5A2B;
+  .pill-tag {
+    @apply inline-flex items-center gap-1.5 rounded-full px-3 py-1 font-sans font-semibold uppercase text-[11px];
+    letter-spacing: 0.12em;
   }
 
-  .ingredient-section-header {
-    @apply text-sm font-semibold uppercase tracking-wider mt-5 mb-2 pb-1 border-b;
-    color: #8B5A2B;
-    border-color: #E8C888;
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 font-sans font-semibold text-sm transition-colors;
+    min-height: 44px;
   }
+  .btn-fig { @apply btn bg-fig text-paper hover:bg-fig-deep; }
+  .btn-pistachio { @apply btn bg-pistachio text-aubergine hover:bg-pistachio-edge; }
+  .btn-outline { @apply btn border-[1.5px] border-aubergine text-aubergine hover:bg-blush; }
+}
 
-  .instruction-section-header {
-    @apply text-sm font-semibold uppercase tracking-wider mt-6 mb-3 pb-1 border-b;
-    color: #8B5A2B;
-    border-color: #E8C888;
-  }
+@media print {
+  .no-print { display: none !important; }
+  body { background: #fff; padding: 0; }
+  .print-stack { display: block !important; }
+  .print-stack > * { width: 100% !important; margin-bottom: 24px; }
+  .print-plain { background: #fff !important; border-color: #DFC8CB !important; }
+  @page { margin: 0.6in; }
 }

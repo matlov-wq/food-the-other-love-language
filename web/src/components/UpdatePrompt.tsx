@@ -9,12 +9,9 @@ export function UpdatePrompt() {
   if (!needRefresh) return null
 
   return (
-    <div className="fixed bottom-4 left-4 right-4 z-50 flex items-center justify-between gap-3 bg-stone-900 text-white px-4 py-3 rounded-2xl shadow-lg">
-      <p className="text-sm">A new version is ready.</p>
-      <button
-        onClick={() => updateServiceWorker(true)}
-        className="flex-shrink-0 bg-butter-500 hover:bg-butter-400 text-white text-sm font-semibold px-4 py-1.5 rounded-full transition-colors"
-      >
+    <div className="no-print fixed bottom-4 left-4 right-4 z-50 flex items-center justify-between gap-3 bg-aubergine text-paper px-5 py-3 rounded-card shadow-lg">
+      <p className="font-serif text-base">A new version is ready.</p>
+      <button type="button" onClick={() => updateServiceWorker(true)} className="btn-pistachio flex-shrink-0">
         Update
       </button>
     </div>

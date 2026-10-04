@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import { useParams, Link, useNavigate } from 'react-router-dom'
+import { useEffect, useRef, useState } from 'react'
+import { useParams, Link } from 'react-router-dom'
 import { getRecipeById } from '../data/recipes'
 import { IngredientSection } from '../components/IngredientSection'
 import { InstructionSection } from '../components/InstructionSection'
@@ -8,195 +8,161 @@ import { ServingScaler } from '../components/ServingScaler'
 import { FavoriteButton } from '../components/FavoriteButton'
 import { useFavorites } from '../hooks/useFavorites'
 
-function BackIcon() {
+/** Cook mode keeps the screen awake while it's on. */
+function useWakeLock(active: boolean) {
+  const lock = useRef<WakeLockSentinel | null>(null)
+  useEffect(() => {
+    if (!active || !('wakeLock' in navigator)) return
+    let cancelled = false
+    const request = () =>
+      navigator.wakeLock
+        .request('screen')
+        .then(l => {
+          if (cancelled) l.release()
+          else lock.current = l
+        })
+        .catch(() => {})
+    request()
+    // The lock drops when the tab is hidden; take it back when the cook returns.
+    const onVisible = () => document.visibilityState === 'visible' && request()
+    document.addEventListener('visibilitychange', onVisible)
+    return () => {
+      cancelled = true
+      document.removeEventListener('visibilitychange', onVisible)
+      lock.current?.release().catch(() => {})
+      lock.current = null
+    }
+  }, [active])
+}
+
+function Stat({ label, value }: { label: string; value: string }) {
   return (
-    <svg
-      width={20}
-      height={20}
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth={2}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <polyline points="15 18 9 12 15 6" />
-    </svg>
+    <div>
+      <div className="label text-aubergine-soft">{label}</div>
+      <div className="qty text-lg mt-1.5">{value}</div>
+    </div>
   )
 }
 
 export function RecipePage() {
   const { id } = useParams<{ id: string }>()
-  const navigate = useNavigate()
   const recipe = id ? getRecipeById(id) : undefined
   const [scale, setScale] = useState(1)
+  const [cookMode, setCookMode] = useState(false)
   const { isFavorite, toggle } = useFavorites()
+  useWakeLock(cookMode)
 
   if (!recipe) {
     return (
-      <div className="min-h-screen flex flex-col items-center justify-center gap-4" style={{ backgroundColor: '#FAF3E7' }}>
-        <p className="text-sm italic" style={{ color: '#8B5A2B' }}>Recipe not found.</p>
-        <Link to="/recipes" className="text-sm underline" style={{ color: '#B8793A' }}>
-          Back to all recipes
-        </Link>
-      </div>
+      <main className="flex-1 flex flex-col items-center justify-center gap-4 px-4 py-24 text-center">
+        <h1 className="font-display text-[32px]">We couldn’t find that recipe.</h1>
+        <Link to="/" className="btn-fig">Back to the contents</Link>
+      </main>
     )
   }
 
-  const hasContent =
-    recipe.ingredientGroups.length > 0 || recipe.instructionGroups.length > 0
-
-  const hasTimes = recipe.prepTime || recipe.cookTime || recipe.totalTime
+  const hasContent = recipe.ingredientGroups.length > 0 || recipe.instructionGroups.length > 0
 
   let stepCounter = 1
-  const instructionGroupsWithStart = recipe.instructionGroups.map(group => {
+  const groupsWithStart = recipe.instructionGroups.map(group => {
     const start = stepCounter
     stepCounter += group.steps.length
     return { group, start }
   })
 
   return (
-    <div className="min-h-screen" style={{ backgroundColor: '#FAF3E7' }}>
-      <header className="sticky top-0 z-10 shadow-sm" style={{ backgroundColor: '#3D2817' }}>
-        <div className="max-w-2xl mx-auto px-4 py-3 flex items-center justify-between gap-3">
-          <button
-            onClick={() => navigate(-1)}
-            aria-label="Back"
-            className="flex items-center gap-1 transition-opacity hover:opacity-60 -ml-1"
-            style={{ color: '#8B5A2B' }}
-          >
-            <BackIcon />
-          </button>
-          <span className="text-xs font-medium tracking-wide truncate" style={{ color: '#8B5A2B' }}>
-            {recipe.category}
-          </span>
-          <FavoriteButton
-            isFavorite={isFavorite(recipe.id)}
-            onToggle={() => toggle(recipe.id)}
-          />
+    <main className="flex-1">
+      <section className="max-w-[1200px] mx-auto px-4 sm:px-8 pt-6 sm:pt-10 pb-10 flex flex-col gap-5">
+        <div className="no-print flex flex-wrap gap-2">
+          <Link to="/" className="pill-tag bg-blush text-fig-deep hover:bg-blush-border">{recipe.category}</Link>
+          {recipe.status === 'anchor' && <span className="pill-tag bg-blush text-fig-deep">Anchor recipe</span>}
         </div>
-      </header>
-
-      <main className="max-w-2xl mx-auto px-4 py-6">
-        {/* Title */}
-        <h1
-          className="font-display font-bold text-3xl leading-tight mb-3"
-          style={{ color: '#3D2817', fontVariationSettings: "'opsz' 72, 'wght' 700" }}
-        >
-          {recipe.title}
-        </h1>
-
-        {/* Story / headnote */}
+        <h1 className="font-display text-[clamp(2.4rem,5.5vw,4rem)] leading-none max-w-[900px]">{recipe.title}</h1>
         {recipe.story && (
-          <p className="font-serif italic text-base leading-relaxed mb-5 pl-3 border-l-2"
-            style={{ color: '#8B5A2B', borderColor: '#E8C888' }}>
-            {recipe.story}
-          </p>
+          <p className="font-serif italic text-[22px] leading-snug text-aubergine-soft max-w-[760px]">{recipe.story}</p>
         )}
 
-        {/* Times */}
-        {hasTimes && (
-          <div className="flex flex-wrap gap-4 mb-5">
-            {recipe.prepTime && <TimeStat label="Prep" value={recipe.prepTime} />}
-            {recipe.cookTime && <TimeStat label="Cook" value={recipe.cookTime} />}
-            {recipe.totalTime && <TimeStat label="Total" value={recipe.totalTime} />}
+        <div className="flex flex-wrap items-center justify-between gap-6 mt-3 pt-6 border-t border-blush-border">
+          <div className="flex flex-wrap gap-x-10 gap-y-4">
+            {recipe.totalTime && <Stat label="Total" value={recipe.totalTime} />}
+            {recipe.prepTime && <Stat label="Hands-on" value={recipe.prepTime} />}
+            {recipe.cookTime && <Stat label="Cook" value={recipe.cookTime} />}
+            {recipe.servings && <Stat label="Makes" value={recipe.servings} />}
           </div>
-        )}
-
-        {/* Serving scaler */}
-        {hasContent && (
-          <div className="mb-6 pb-5 border-b" style={{ borderColor: '#E8C888' }}>
-            <ServingScaler
-              scale={scale}
-              onChange={setScale}
-              baseServings={recipe.servings || undefined}
-            />
-          </div>
-        )}
-
-        {!hasContent && (
-          <div className="py-10 text-center">
-            <p className="text-sm italic" style={{ color: '#B8793A' }}>
-              This recipe is coming soon — content is being developed.
-            </p>
-          </div>
-        )}
-
-        {/* Ingredients */}
-        {recipe.ingredientGroups.length > 0 && (
-          <section className="mb-8">
-            <h2 className="section-label">Ingredients</h2>
-            <div className="space-y-2">
-              {recipe.ingredientGroups.map((group, i) => (
-                <IngredientSection key={i} group={group} scale={scale} />
-              ))}
-            </div>
-          </section>
-        )}
-
-        {/* Instructions */}
-        {recipe.instructionGroups.length > 0 && (
-          <section className="mb-8">
-            <h2 className="section-label">Instructions</h2>
-            <div>
-              {instructionGroupsWithStart.map(({ group, start }, i) => (
-                <InstructionSection key={i} group={group} startIndex={start} />
-              ))}
-            </div>
-          </section>
-        )}
-
-        {/* If You Feel Like It */}
-        {recipe.ifYouFeelLikeIt && recipe.ifYouFeelLikeIt.length > 0 && (
-          <section className="mb-8">
-            <IfYouFeelLikeIt items={recipe.ifYouFeelLikeIt} />
-          </section>
-        )}
-
-        {/* Storage */}
-        {recipe.storage && (
-          <section className="mb-8">
-            <h2 className="section-label">Storage</h2>
-            <p className="text-[15px] leading-relaxed" style={{ color: '#6B4226' }}>
-              {recipe.storage}
-            </p>
-          </section>
-        )}
-
-        {/* Batch version */}
-        {recipe.batchVersion && (
-          <section className="mb-8 p-4 rounded-xl" style={{ backgroundColor: '#F3E4C8' }}>
-            <h2 className="section-label">Batch Version</h2>
-            <p className="text-[15px] leading-relaxed" style={{ color: '#6B4226' }}>
-              {recipe.batchVersion}
-            </p>
-          </section>
-        )}
-
-        {/* Tags */}
-        {recipe.tags && recipe.tags.length > 0 && (
-          <div className="mt-8 flex flex-wrap gap-2">
-            {recipe.tags.map(tag => (
-              <span
-                key={tag}
-                className="px-2.5 py-0.5 text-xs rounded-full"
-                style={{ backgroundColor: '#E8C888', color: '#8B5A2B' }}
+          {hasContent && (
+            <div className="no-print flex flex-wrap gap-2.5">
+              <a href="#method" className="btn-fig">Jump to recipe</a>
+              <button
+                type="button"
+                aria-pressed={cookMode}
+                onClick={() => setCookMode(c => !c)}
+                className={cookMode ? 'btn bg-aubergine text-paper' : 'btn-outline'}
               >
-                #{tag}
-              </span>
-            ))}
-          </div>
-        )}
-      </main>
-    </div>
-  )
-}
+                {cookMode ? 'Cook mode on' : 'Cook mode'}
+              </button>
+              <button type="button" onClick={() => window.print()} className="btn-outline">Print card</button>
+              <FavoriteButton isFavorite={isFavorite(recipe.id)} onToggle={() => toggle(recipe.id)} />
+            </div>
+          )}
+        </div>
+      </section>
 
-function TimeStat({ label, value }: { label: string; value: string }) {
-  return (
-    <div className="text-sm">
-      <span className="text-xs uppercase tracking-wide" style={{ color: '#B8793A' }}>{label}</span>
-      <p className="font-medium" style={{ color: '#6B4226' }}>{value}</p>
-    </div>
+      {!hasContent ? (
+        <section className="max-w-[1200px] mx-auto px-4 sm:px-8 pb-24">
+          <div className="rounded-card bg-blush border border-blush-border px-6 py-16 text-center">
+            <p className="font-display text-[28px]">Coming soon.</p>
+            <p className="text-lg mt-3 text-aubergine-soft">We’re still testing this one. It’ll be here when it’s right.</p>
+          </div>
+        </section>
+      ) : (
+        <section
+          id="method"
+          className="print-stack scroll-mt-6 max-w-[1200px] mx-auto px-4 sm:px-8 pb-24 flex flex-wrap items-start gap-12"
+        >
+          <aside
+            aria-label="Ingredients"
+            className="print-plain flex-[1_1_340px] min-w-0 bg-blush border border-blush-border rounded-card p-6 sm:p-8"
+          >
+            <div className="flex flex-wrap items-center justify-between gap-4 pb-5 border-b-2 border-aubergine">
+              <h2 className="font-display text-[28px]">Ingredients</h2>
+              <ServingScaler scale={scale} onChange={setScale} />
+            </div>
+            {recipe.ingredientGroups.map((group, i) => (
+              <IngredientSection key={i} group={group} scale={scale} />
+            ))}
+            {scale !== 1 && (
+              <p className="no-print mt-5 text-[15px] italic text-aubergine-soft">
+                Amounts in the method are for one batch.
+              </p>
+            )}
+          </aside>
+
+          <div className="flex-[999_1_560px] min-w-0">
+            <h2 className="font-display text-[28px] pb-5 border-b-2 border-aubergine">Method</h2>
+            {groupsWithStart.map(({ group, start }, i) => (
+              <InstructionSection key={i} group={group} startIndex={start} large={cookMode} />
+            ))}
+
+            {(recipe.ifYouFeelLikeIt?.length || recipe.storage || recipe.batchVersion) && (
+              <div className="mt-12 flex flex-wrap gap-6">
+                {recipe.ifYouFeelLikeIt && <IfYouFeelLikeIt items={recipe.ifYouFeelLikeIt} />}
+                {recipe.storage && (
+                  <section className="flex-1 min-w-[min(100%,300px)] rounded-card border border-blush-border p-7">
+                    <h2 className="font-display text-2xl mb-3.5">Storage</h2>
+                    <p className="text-[17px] leading-relaxed">{recipe.storage}</p>
+                  </section>
+                )}
+                {recipe.batchVersion && (
+                  <section className="flex-1 min-w-[min(100%,300px)] rounded-card border border-blush-border p-7">
+                    <h2 className="font-display text-2xl mb-3.5">Batch Version</h2>
+                    <p className="text-[17px] leading-relaxed">{recipe.batchVersion}</p>
+                  </section>
+                )}
+              </div>
+            )}
+          </div>
+        </section>
+      )}
+    </main>
   )
 }

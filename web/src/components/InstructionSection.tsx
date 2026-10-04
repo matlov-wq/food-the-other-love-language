@@ -1,80 +1,36 @@
 import type { InstructionGroup } from '../types/recipe'
+import { TimerChip, labelMinutes } from './TimerChip'
 
 interface Props {
   group: InstructionGroup
   startIndex: number
+  large?: boolean
 }
 
-function ClockIcon() {
+export function InstructionSection({ group, startIndex, large }: Props) {
   return (
-    <svg
-      width={13}
-      height={13}
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth={2}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      className="inline-block mr-1 -mt-0.5"
-    >
-      <circle cx="12" cy="12" r="10" />
-      <polyline points="12 6 12 12 16 14" />
-    </svg>
-  )
-}
-
-function EyeIcon() {
-  return (
-    <svg
-      width={13}
-      height={13}
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth={2}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      className="inline-block mr-1 -mt-0.5"
-    >
-      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
-      <circle cx="12" cy="12" r="3" />
-    </svg>
-  )
-}
-
-export function InstructionSection({ group, startIndex }: Props) {
-  return (
-    <div>
-      {group.section && (
-        <h3 className="instruction-section-header">{group.section}</h3>
-      )}
-      <ol className="space-y-5" start={startIndex}>
+    <div className="mt-8 first:mt-6">
+      {group.section && <h3 className="label text-fig-deep pb-1">{group.section}</h3>}
+      <ol>
         {group.steps.map((step, i) => (
-          <li key={i} className="flex gap-3">
-            <span
-              className="flex-shrink-0 w-6 h-6 rounded-full text-xs font-semibold flex items-center justify-center mt-0.5"
-              style={{ backgroundColor: '#E8C888', color: '#6B4226' }}
-            >
-              {startIndex + i}
-            </span>
-            <div className="flex-1 min-w-0">
-              <p className="text-[15px] leading-relaxed" style={{ color: '#3D2817' }}>{step.text}</p>
-
-              {step.timerMinutes !== undefined && (
-                <p className="mt-1.5 text-xs" style={{ color: '#8B5A2B' }}>
-                  <ClockIcon />
-                  {step.timerMinutes >= 60
-                    ? `${Math.floor(step.timerMinutes / 60)}h${step.timerMinutes % 60 > 0 ? ` ${step.timerMinutes % 60}m` : ''}`
-                    : `${step.timerMinutes} min`}
+          <li
+            key={i}
+            className="grid grid-cols-[2.75rem_minmax(0,1fr)] gap-3 py-6 border-b border-blush-border break-inside-avoid"
+          >
+            <span className="font-display text-[32px] leading-none text-fig">{startIndex + i}</span>
+            <div className="flex flex-col gap-3">
+              <p className={`leading-[1.6] ${large ? 'text-[26px]' : 'text-lg'}`}>{step.text}</p>
+              {step.donenessCue && (
+                <p className={`leading-normal ${large ? 'text-[24px]' : 'text-lg'}`}>
+                  <span className="label text-fig-deep mr-2">Done when</span>
+                  <span className="italic">{step.donenessCue}</span>
                 </p>
               )}
-
-              {step.donenessCue && (
-                <p className="doneness-cue">
-                  <EyeIcon />
-                  {step.donenessCue}
-                </p>
+              {step.timerMinutes !== undefined && step.timerMinutes > 0 && (
+                <>
+                  <TimerChip minutes={step.timerMinutes} />
+                  <span className="hidden print:inline qty text-sm text-fig-deep">⏱ {labelMinutes(step.timerMinutes)}</span>
+                </>
               )}
             </div>
           </li>

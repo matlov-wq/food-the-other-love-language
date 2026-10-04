@@ -1,7 +1,8 @@
 {
   "id": "baked-buffalo-mac-and-cheese",
   "title": "Baked Buffalo Mac and Cheese",
-  "category": "Party Snacks",
+  "category": "Sides",
+  "subcategory": "Mac and Cheese",
   "status": "draft",
   "servings": "5",
   "totalTime": "~1 hour",

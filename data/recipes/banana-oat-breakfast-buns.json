@@ -1,7 +1,8 @@
 {
   "id": "banana-oat-breakfast-buns",
   "title": "Banana-Oat Breakfast Buns",
-  "category": "Desserts",
+  "category": "Breakfast",
+  "subcategory": "Buns",
   "status": "draft",
   "servings": "12 buns (standard muffin tin)",
   "totalTime": "~3 hours (includes two rises)",

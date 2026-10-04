@@ -34,6 +34,11 @@ function ContentsRow({ recipe, saved }: { recipe: Recipe; saved: boolean }) {
   )
 }
 
+/** Subsections within a course (e.g. Buns under Breakfast), in alphabetical order. */
+function subcategories(items: Recipe[]): string[] {
+  return [...new Set(items.map(r => r.subcategory).filter((s): s is string => !!s))].sort()
+}
+
 function Course({ n, title, items, isSaved }: { n: number; title: string; items: Recipe[]; isSaved: (id: string) => boolean }) {
   const headingId = `course-${n}`
   return (
@@ -42,8 +47,16 @@ function Course({ n, title, items, isSaved }: { n: number; title: string; items:
         <span className="qty text-[15px] text-fig-deep">{String(n).padStart(2, '0')}</span>
         <h3 id={headingId} className="font-display text-[28px] leading-tight">{title}</h3>
       </div>
-      {items.map(r => (
+      {items.filter(r => !r.subcategory).map(r => (
         <ContentsRow key={r.id} recipe={r} saved={isSaved(r.id)} />
+      ))}
+      {subcategories(items).map(sub => (
+        <div key={sub} className="mt-8">
+          <h4 className="label text-fig-deep pb-2 border-b border-blush-border">{sub}</h4>
+          {items.filter(r => r.subcategory === sub).map(r => (
+            <ContentsRow key={r.id} recipe={r} saved={isSaved(r.id)} />
+          ))}
+        </div>
       ))}
     </section>
   )

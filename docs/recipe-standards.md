@@ -59,9 +59,11 @@ The recipe-specific step (if any) always comes first, before `Mix the Dry` or `C
 ```
 Title
 Story / headnote        — a few sentences: why this recipe, who it's for
-Category                — Starters | Sides | Sauces & Condiments | Entrees |
-                           Desserts | Party Snacks | Non-Alcoholic Beverages |
+Category                — Breakfast | Starters | Sides | Breads |
+                           Sauces & Condiments | Entrees | Desserts |
+                           Party Snacks | Non-Alcoholic Beverages |
                            Mocktails | Boozy Drinks
+Subcategory (optional)  — a family within a category, e.g. Buns, Mac and Cheese
 Servings / yield
 Prep time / cook time / total time
 Ingredients              — grouped by section

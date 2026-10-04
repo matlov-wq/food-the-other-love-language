@@ -11,8 +11,10 @@ export const recipes: Recipe[] = Object.entries(modules)
   .sort((a, b) => a.title.localeCompare(b.title))
 
 export const CATEGORIES: Category[] = [
+  'Breakfast',
   'Starters',
   'Sides',
+  'Breads',
   'Sauces & Condiments',
   'Entrees',
   'Desserts',

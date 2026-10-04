@@ -22,8 +22,10 @@ export interface InstructionGroup {
 export type RecipeStatus = 'anchor' | 'draft' | 'backlog'
 
 export type Category =
+  | 'Breakfast'
   | 'Starters'
   | 'Sides'
+  | 'Breads'
   | 'Sauces & Condiments'
   | 'Entrees'
   | 'Desserts'
@@ -37,6 +39,8 @@ export interface Recipe {
   title: string
   story?: string
   category: Category
+  /** Optional family within a category, e.g. 'Buns' or 'Mac and Cheese' */
+  subcategory?: string
   status: RecipeStatus
   servings?: string
   prepTime?: string

@@ -2,13 +2,22 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Recipe",
   "type": "object",
-  "required": ["id", "title", "category", "status", "ingredients", "instructions"],
+  "required": [
+    "id",
+    "title",
+    "category",
+    "status",
+    "ingredientGroups",
+    "instructionGroups"
+  ],
   "properties": {
     "id": {
       "type": "string",
       "description": "kebab-case unique id, e.g. burnt-butter-hazelnut-cookies"
     },
-    "title": { "type": "string" },
+    "title": {
+      "type": "string"
+    },
     "story": {
       "type": "string",
       "description": "Headnote — why this recipe, who it's for. Optional but encouraged."
@@ -16,8 +25,10 @@
     "category": {
       "type": "string",
       "enum": [
+        "Breakfast",
         "Starters",
         "Sides",
+        "Breads",
         "Sauces & Condiments",
         "Entrees",
         "Desserts",
@@ -27,30 +38,60 @@
         "Boozy Drinks"
       ]
     },
+    "subcategory": {
+      "type": "string",
+      "description": "Optional grouping inside a category, e.g. 'Buns' under Breakfast or 'Mac and Cheese' under Sides. Recipes sharing a subcategory are listed together."
+    },
     "status": {
       "type": "string",
-      "enum": ["anchor", "draft", "backlog"]
+      "enum": [
+        "anchor",
+        "draft",
+        "backlog"
+      ]
     },
-    "servings": { "type": "string" },
-    "prepTime": { "type": "string" },
-    "cookTime": { "type": "string" },
-    "totalTime": { "type": "string" },
+    "servings": {
+      "type": "string"
+    },
+    "prepTime": {
+      "type": "string"
+    },
+    "cookTime": {
+      "type": "string"
+    },
+    "totalTime": {
+      "type": "string"
+    },
     "ingredientGroups": {
       "type": "array",
       "description": "Ingredients divided by prep section (e.g. 'Cookies', 'Brown Butter').",
       "items": {
         "type": "object",
-        "required": ["section", "items"],
+        "required": [
+          "section",
+          "items"
+        ],
         "properties": {
-          "section": { "type": "string" },
+          "section": {
+            "type": "string"
+          },
           "items": {
             "type": "array",
             "items": {
               "type": "object",
-              "required": ["id", "text"],
+              "required": [
+                "id",
+                "text"
+              ],
               "properties": {
-                "id": { "type": "string", "description": "short id to reference from instructions" },
-                "text": { "type": "string", "description": "e.g. '1 cup (2 sticks) unsalted butter'" }
+                "id": {
+                  "type": "string",
+                  "description": "short id to reference from instructions"
+                },
+                "text": {
+                  "type": "string",
+                  "description": "e.g. '1 cup (2 sticks) unsalted butter'"
+                }
               }
             }
           }
@@ -62,18 +103,32 @@
       "description": "Steps grouped to match ingredientGroups sections.",
       "items": {
         "type": "object",
-        "required": ["section", "steps"],
+        "required": [
+          "section",
+          "steps"
+        ],
         "properties": {
-          "section": { "type": "string" },
+          "section": {
+            "type": "string"
+          },
           "steps": {
             "type": "array",
             "items": {
               "type": "object",
-              "required": ["text"],
+              "required": [
+                "text"
+              ],
               "properties": {
-                "text": { "type": "string" },
-                "donenessCue": { "type": "string", "description": "visual/sensory checkpoint, if applicable" },
-                "timerMinutes": { "type": "number" }
+                "text": {
+                  "type": "string"
+                },
+                "donenessCue": {
+                  "type": "string",
+                  "description": "visual/sensory checkpoint, if applicable"
+                },
+                "timerMinutes": {
+                  "type": "number"
+                }
               }
             }
           }
@@ -82,13 +137,21 @@
     },
     "ifYouFeelLikeIt": {
       "type": "array",
-      "items": { "type": "string" }
+      "items": {
+        "type": "string"
+      }
     },
-    "storage": { "type": "string" },
-    "batchVersion": { "type": "string" },
+    "storage": {
+      "type": "string"
+    },
+    "batchVersion": {
+      "type": "string"
+    },
     "tags": {
       "type": "array",
-      "items": { "type": "string" }
+      "items": {
+        "type": "string"
+      }
     }
   }
 }

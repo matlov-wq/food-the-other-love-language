@@ -18,8 +18,10 @@ What ties them together is care, not a consistent voice.
 
 ## Book categories
 
+- Breakfast — includes a **Buns** subsection (banana, sweet potato, pumpkin oat buns)
 - Starters
-- Sides
+- Sides — includes a **Mac and Cheese** subsection (Buffalo is the first variation)
+- Breads
 - Sauces & Condiments
 - Entrees
 - Desserts

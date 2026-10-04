@@ -68,7 +68,7 @@ export function CoverPage() {
             <span className="font-serif italic text-lg text-paper/80">Some people write cards, we cook.</span>
           </div>
           <Link to="/contents" className="btn-pistachio px-7 text-[15px]">
-            Open the book
+            Let’s Cook!
             <svg width={18} height={18} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <path d="M5 12h14M13 6l6 6-6 6" />
             </svg>

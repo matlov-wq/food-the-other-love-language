@@ -2,7 +2,7 @@ import { Link, NavLink } from 'react-router-dom'
 import { LogoLockup } from './Logo'
 
 const NAV = [
-  { to: '/', label: 'Recipes', end: true, active: 'text-fig' },
+  { to: '/contents', label: 'Recipes', end: false, active: 'text-fig' },
   { to: '/episodes', label: 'Episodes', end: false, active: 'text-pistachio-deep' },
   { to: '/about', label: 'About', end: false, active: 'text-fig' },
 ]

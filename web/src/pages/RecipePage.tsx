@@ -56,7 +56,7 @@ export function RecipePage() {
     return (
       <main className="flex-1 flex flex-col items-center justify-center gap-4 px-4 py-24 text-center">
         <h1 className="font-display text-[32px]">We couldn’t find that recipe.</h1>
-        <Link to="/" className="btn-fig">Back to the contents</Link>
+        <Link to="/contents" className="btn-fig">Back to the contents</Link>
       </main>
     )
   }
@@ -74,7 +74,7 @@ export function RecipePage() {
     <main className="flex-1">
       <section className="max-w-[1200px] mx-auto px-4 sm:px-8 pt-6 sm:pt-10 pb-10 flex flex-col gap-5">
         <div className="no-print flex flex-wrap gap-2">
-          <Link to="/" className="pill-tag bg-blush text-fig-deep hover:bg-blush-border">{recipe.category}</Link>
+          <Link to="/contents" className="pill-tag bg-blush text-fig-deep hover:bg-blush-border">{recipe.category}</Link>
           {recipe.subcategory && <span className="pill-tag bg-blush text-fig-deep">{recipe.subcategory}</span>}
           {recipe.status === 'anchor' && <span className="pill-tag bg-blush text-fig-deep">Anchor recipe</span>}
         </div>

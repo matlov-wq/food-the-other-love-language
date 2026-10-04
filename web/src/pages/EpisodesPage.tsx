@@ -25,7 +25,7 @@ export function EpisodesPage() {
         <p className="text-lg leading-relaxed max-w-[520px]">
           When an episode is up, it will live here — with its recipe one tap away.
         </p>
-        <Link to="/" className="btn-fig mt-2">Browse the recipes</Link>
+        <Link to="/contents" className="btn-fig mt-2">Browse the recipes</Link>
       </div>
     </main>
   )

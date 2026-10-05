@@ -3,14 +3,107 @@
   "title": "Mom's Chow-Chow",
   "story": "",
   "category": "Sauces & Condiments",
-  "status": "backlog",
-  "servings": "",
-  "prepTime": "",
-  "cookTime": "",
-  "totalTime": "",
-  "ingredientGroups": [],
-  "instructionGroups": [],
-  "ifYouFeelLikeIt": [],
-  "storage": "",
-  "tags": ["anchor", "needs-content"]
+  "status": "anchor",
+  "servings": "About 10 pints",
+  "prepTime": "45 minutes, plus overnight salting",
+  "cookTime": "25 minutes",
+  "totalTime": "About 2 days, including overnight salting and 24 hours to seal",
+  "ingredientGroups": [
+    {
+      "section": "Add-Ins",
+      "items": [
+        { "id": "cabbage", "text": "1 medium head cabbage (about 4 cups finely chopped)" },
+        { "id": "green-tomatoes", "text": "10 green tomatoes (about 4 cups finely chopped)" },
+        { "id": "onions", "text": "4 cups finely chopped onions" },
+        { "id": "red-peppers", "text": "6 red bell peppers" },
+        { "id": "yellow-peppers", "text": "6 yellow bell peppers" }
+      ]
+    },
+    {
+      "section": "Dry",
+      "items": [
+        { "id": "salt", "text": "½ cup salt, for the overnight salting" },
+        { "id": "sugar", "text": "4 cups sugar" },
+        { "id": "mustard-seed", "text": "3 tbsp mustard seed" },
+        { "id": "celery-seed", "text": "2 tbsp celery seed" },
+        { "id": "turmeric", "text": "1 tbsp (3 tsp) ground turmeric" }
+      ]
+    },
+    {
+      "section": "Wet",
+      "items": [
+        { "id": "vinegar", "text": "4 cups white vinegar" },
+        { "id": "water", "text": "2 cups water" }
+      ]
+    }
+  ],
+  "instructionGroups": [
+    {
+      "section": "Salt the Vegetables",
+      "steps": [
+        {
+          "text": "Pulse the cabbage, green tomatoes, onions, and red and yellow peppers in a blender, in batches.",
+          "donenessCue": "Small, even, relish-size pieces, not purée. You want about 4 cups each of cabbage, tomato and onion."
+        },
+        {
+          "text": "Put all the vegetables in a large glass or porcelain container. Sprinkle with ½ cup salt, cover, and refrigerate overnight."
+        }
+      ]
+    },
+    {
+      "section": "Combine",
+      "steps": [
+        {
+          "text": "Drain the vegetables in a colander and rinse with water, in small batches if needed. Let them drain thoroughly, then put them in a large stockpot."
+        },
+        {
+          "text": "Stir together 4 cups sugar, 3 tbsp mustard seed, 2 tbsp celery seed, 1 tbsp turmeric, 4 cups white vinegar and 2 cups water. Pour over the vegetables."
+        }
+      ]
+    },
+    {
+      "section": "Cook",
+      "steps": [
+        {
+          "text": "Bring to a boil and boil 5–6 minutes.",
+          "timerMinutes": 6
+        },
+        {
+          "text": "Taste, and adjust the spices before canning."
+        }
+      ]
+    },
+    {
+      "section": "Can the Jars",
+      "steps": [
+        {
+          "text": "Ladle into hot, sterilized pint jars, leaving ½ inch of space at the top."
+        },
+        {
+          "text": "Run a clean utensil around the inside of each jar to release air bubbles."
+        },
+        {
+          "text": "Wipe the jar rims clean. Put on the lids and screw the bands on tightly."
+        },
+        {
+          "text": "Lower the jars into boiling water in a canning pot and boil 10 minutes.",
+          "timerMinutes": 10
+        }
+      ]
+    },
+    {
+      "section": "Finish",
+      "steps": [
+        {
+          "text": "Lift the jars out and let them stand undisturbed for 24 hours.",
+          "donenessCue": "Every lid is sealed: pressed in the center, it doesn't flex or pop back."
+        }
+      ]
+    }
+  ],
+  "ifYouFeelLikeIt": [
+    "Add chopped jalapeños with the vegetables for a spicy version, to taste."
+  ],
+  "storage": "Sealed jars keep in a cool, dark place for up to 2 years. Any jar that didn't seal goes in the fridge and gets used first.",
+  "tags": ["anchor", "canning", "relish", "family-recipe"]
 }
